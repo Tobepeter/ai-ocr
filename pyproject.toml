@@ -1,0 +1,16 @@
+[project]
+name = "ai-ocr-bench"
+version = "0.1.0"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "pillow>=11,<13",
+    "rapidfuzz>=3,<4",
+    "psutil>=6,<8",
+    "regex>=2024,<2027",
+]
+
+[project.optional-dependencies]
+easy = ["easyocr==1.7.2"]
+
+[tool.uv]
+package = false

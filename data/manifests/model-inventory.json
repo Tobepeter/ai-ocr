@@ -1,0 +1,185 @@
+{
+  "observed": "2026-10-30",
+  "file_models": [
+    {
+      "cache_location": "uv-tool://rapidocr/lib/python3.12/site-packages/rapidocr/models/ch_ppocr_mobile_v2.0_cls_infer.onnx",
+      "bytes": 585532,
+      "sha256": "e47acedf663230f8863ff1ab0e64dd2d82b838fceb5957146dab185a89d6215c"
+    },
+    {
+      "cache_location": "uv-tool://rapidocr/lib/python3.12/site-packages/rapidocr/models/ch_PP-OCRv4_rec_mobile.onnx",
+      "bytes": 10857958,
+      "sha256": "48fc40f24f6d2a207a2b1091d3437eb3cc3eb6b676dc3ef9c37384005483683b"
+    },
+    {
+      "cache_location": "uv-tool://rapidocr/lib/python3.12/site-packages/rapidocr/models/ch_PP-OCRv4_det_infer.onnx",
+      "bytes": 4745517,
+      "sha256": "d2a7720d45a54257208b1e13e36a8479894cb74155a5efe29462512d42f49da9"
+    },
+    {
+      "cache_location": "uv-tool://rapidocr/lib/python3.12/site-packages/rapidocr/models/ch_PP-OCRv4_rec_infer.onnx",
+      "bytes": 10857958,
+      "sha256": "48fc40f24f6d2a207a2b1091d3437eb3cc3eb6b676dc3ef9c37384005483683b"
+    },
+    {
+      "cache_location": "uv-tool://rapidocr/lib/python3.12/site-packages/rapidocr/models/ch_ppocr_mobile_v2.0_cls_mobile.onnx",
+      "bytes": 585532,
+      "sha256": "e47acedf663230f8863ff1ab0e64dd2d82b838fceb5957146dab185a89d6215c"
+    },
+    {
+      "cache_location": "uv-tool://rapidocr/lib/python3.12/site-packages/rapidocr/models/ch_PP-OCRv4_det_mobile.onnx",
+      "bytes": 4745517,
+      "sha256": "d2a7720d45a54257208b1e13e36a8479894cb74155a5efe29462512d42f49da9"
+    },
+    {
+      "cache_location": "paddlex-cache://PP-OCRv5_mobile_det/config.json",
+      "bytes": 2871,
+      "sha256": "7ac1c33f377ba58561f4b89d3180b6add2b7c5c60a4edac90fa4e0ceccdc6665"
+    },
+    {
+      "cache_location": "paddlex-cache://PP-OCRv5_mobile_det/inference.json",
+      "bytes": 229777,
+      "sha256": "05feef1acb00aa4cd7362b15f7f501fc4f99d7b1fa73c1c871e0c7b1504b0f5c"
+    },
+    {
+      "cache_location": "paddlex-cache://PP-OCRv5_mobile_det/inference.pdiparams",
+      "bytes": 4692937,
+      "sha256": "afa1820cb16c1fd0dad589d0f8b389139061c1ef6d68019685fd07be997dda5b"
+    },
+    {
+      "cache_location": "paddlex-cache://PP-OCRv5_mobile_det/inference.yml",
+      "bytes": 903,
+      "sha256": "98069072e1b6b37d727fd9d9f11725faa46d6ea0de012f2ed26caea011c37699"
+    },
+    {
+      "cache_location": "paddlex-cache://PP-OCRv5_mobile_rec/config.json",
+      "bytes": 352253,
+      "sha256": "6df1587ae056f0b987125fc894b17f62ae3a12644fa2488d108f19377da9c1a8"
+    },
+    {
+      "cache_location": "paddlex-cache://PP-OCRv5_mobile_rec/inference.json",
+      "bytes": 217724,
+      "sha256": "24587345250c7332d0fc6f9a44e794d078cdaeb64c302fef906f325619de2569"
+    },
+    {
+      "cache_location": "paddlex-cache://PP-OCRv5_mobile_rec/inference.pdiparams",
+      "bytes": 16458665,
+      "sha256": "2460da90875937c94db97eba74ae3d9e5d4c4c57c42f1f41531c09a26bcc771a"
+    },
+    {
+      "cache_location": "paddlex-cache://PP-OCRv5_mobile_rec/inference.yml",
+      "bytes": 148345,
+      "sha256": "5dfeb2777f6d0db8177d8128a8acfcf6e6276dc4ac73ea3bf0dc06d6a5e85d8e"
+    },
+    {
+      "cache_location": "craft_mlt_25k.pth",
+      "bytes": 83152330,
+      "sha256": "4a5efbfb48b4081100544e75e1e2b57f8de3d84f213004b14b85fd4b3748db17"
+    },
+    {
+      "cache_location": "zh_sim_g2.pth",
+      "bytes": 21951421,
+      "sha256": "cb678fdef09d651e7763ca551ad790dc89f0b2e3d2a640484330e338fb574c7a"
+    },
+    {
+      "cache_location": "huggingface-cache://models--docling-project--docling-models/snapshots/fc0f2d45e2218ea24bce5045f58a389aed16dc23/config.json",
+      "bytes": 41,
+      "sha256": "9c34024dc28ff47b75818f415e769809798c29bf9bde6f2ccc63a4acb62396d9"
+    },
+    {
+      "cache_location": "huggingface-cache://models--docling-project--docling-models/snapshots/fc0f2d45e2218ea24bce5045f58a389aed16dc23/model_artifacts/tableformer/fast/tableformer_fast.safetensors",
+      "bytes": 145453276,
+      "sha256": "3119563aab5a7c96fda4d621119b63fd8806272b86c30936d15507616422f718"
+    },
+    {
+      "cache_location": "huggingface-cache://models--docling-project--docling-models/snapshots/fc0f2d45e2218ea24bce5045f58a389aed16dc23/model_artifacts/tableformer/fast/tm_config.json",
+      "bytes": 7060,
+      "sha256": "dca6762508dddfae6d57d6cb4ef822c6000119dff0f3b6489db7413118c2622a"
+    },
+    {
+      "cache_location": "huggingface-cache://models--docling-project--docling-models/snapshots/fc0f2d45e2218ea24bce5045f58a389aed16dc23/model_artifacts/tableformer/accurate/tableformer_accurate.safetensors",
+      "bytes": 212758388,
+      "sha256": "2a7d6c924b3cd12fb99a09280ca9c33a89c5d60b93253617d2e088c1a40374d9"
+    },
+    {
+      "cache_location": "huggingface-cache://models--docling-project--docling-models/snapshots/fc0f2d45e2218ea24bce5045f58a389aed16dc23/model_artifacts/tableformer/accurate/tm_config.json",
+      "bytes": 7060,
+      "sha256": "984e122ceb8ccf84d84c9d2882f6f2302a44b4f1e577babd6289892c36f3cffd"
+    },
+    {
+      "cache_location": "huggingface-cache://models--docling-project--docling-layout-heron/snapshots/8f39ad3c0b4c58e9c2d2c84a38465abf757272d8/model.safetensors",
+      "bytes": 171658996,
+      "sha256": "00333a43451945aaf89db8ca9c0a17e75d1537c17db60fdb91aa95f4c7929e0c"
+    },
+    {
+      "cache_location": "huggingface-cache://models--docling-project--docling-layout-heron/snapshots/8f39ad3c0b4c58e9c2d2c84a38465abf757272d8/config.json",
+      "bytes": 3268,
+      "sha256": "fdea30805ce2f5666b147fca941dcdd27ad468e27d6ed21902207d3da056a97d"
+    },
+    {
+      "cache_location": "huggingface-cache://models--docling-project--docling-layout-heron/snapshots/8f39ad3c0b4c58e9c2d2c84a38465abf757272d8/preprocessor_config.json",
+      "bytes": 444,
+      "sha256": "cd38cd59999e7a95d68e487fbe5132df3d4e5c32a0836add57e6126ba0c4eaf1"
+    },
+    {
+      "cache_location": "mineru-cache://MinerU-4_models_onnx/Table/slanet-plus.onnx",
+      "bytes": 7758305,
+      "sha256": "d57a942af6a2f57d6a4a0372573c696a2379bf5857c45e2ac69993f3b334514b"
+    },
+    {
+      "cache_location": "mineru-cache://MinerU-4_models_onnx/Table/unet.onnx",
+      "bytes": 8335007,
+      "sha256": "0ea48d3a17e35ef5c2e498a5e799566073234d39b1079ca21d9f4fafe73c6d20"
+    },
+    {
+      "cache_location": "mineru-cache://MinerU-4_models_onnx/Table/PP-LCNet_x1_0_table_cls.onnx",
+      "bytes": 6776877,
+      "sha256": "c84bf1d79c1c74d534b5b12adb14dd12151c42f7ae3e4be4f1042b830f80b949"
+    },
+    {
+      "cache_location": "mineru-cache://MinerU-4_models_onnx/.cache/huggingface/trees/358310b4f64b95f9fefc372ad899356e4111f376.json",
+      "bytes": 3568,
+      "sha256": "3b59bd7a9d748f166f19e00f5b68face76cf786dc5187e3c5151606981ecb8a2"
+    },
+    {
+      "cache_location": "mineru-cache://MinerU-4_models_onnx/MFR/pp_formulanet_plus_m/PP-FormulaNet_plus-M.onnx",
+      "bytes": 591263297,
+      "sha256": "20a32595c2b30282dcd069e6295e9fad96115697beb66acb9b681b814006d193"
+    },
+    {
+      "cache_location": "mineru-cache://MinerU-4_models_onnx/OCR/paddleocr/seal_PP-OCRv4_det_infer.onnx",
+      "bytes": 4769171,
+      "sha256": "3e190df84542c2756975febe8f73603b587a23c7f7badfdd3fc8a986540d5bc0"
+    },
+    {
+      "cache_location": "mineru-cache://MinerU-4_models_onnx/OCR/paddleocr/ch_PP-OCRv6_tiny_det_infer.onnx",
+      "bytes": 1780590,
+      "sha256": "193bab7a04fca699a6c82e6abb5b81bdb28177f0abd4062552b04908dafb19f8"
+    },
+    {
+      "cache_location": "mineru-cache://MinerU-4_models_onnx/OCR/paddleocr/ch_PP-OCRv6_small_rec_infer.onnx",
+      "bytes": 21159378,
+      "sha256": "5435fd747c9e0efe15a96d0b378d5bd157e9492ed8fd80edf08f30d02fa24634"
+    },
+    {
+      "cache_location": "mineru-cache://MinerU-4_models_onnx/Layout/PP-DocLayoutV2/inference.onnx",
+      "bytes": 213963712,
+      "sha256": "cd540dc296ff3115fe78efa65b68501e6a8dc74b198acc9834a725ffaa095aac"
+    }
+  ],
+  "vlm": [
+    {
+      "engine": "glm",
+      "repo": "mlx-community/GLM-OCR-bf16",
+      "revision": "24f15402e83baa0a80eeeaecf5480e172abc6f2e",
+      "weight_bytes": 2214872319
+    },
+    {
+      "engine": "paddlevl",
+      "repo": "PaddlePaddle/PaddleOCR-VL-1.6",
+      "revision": "c5630abae1d940eafe0697512a0325494b02ab42",
+      "weight_bytes": 1917255968
+    }
+  ],
+  "note": "Historical evidence, not a download instruction or current default model list"
+}

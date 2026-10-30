@@ -1,0 +1,20 @@
+{
+  "started_utc": "2026-10-30T06:30:57.206592+00:00",
+  "engines": [
+    "vision",
+    "glm",
+    "paddlevl",
+    "mineru"
+  ],
+  "selection": "balanced60-v1",
+  "input_run": "bench-20261030",
+  "resource_policy": {
+    "max_process_tree_rss_gib": 24,
+    "case_timeout_seconds": 180,
+    "preflight_count": 6,
+    "full_if_median_seconds_at_most": 30,
+    "mlx_memory_limit_gib": 16,
+    "mlx_cache_limit_gib": 1
+  },
+  "device": "M4 Max,64GiB; Vision automatic / MLX Metal / MinerU basic CPU"
+}

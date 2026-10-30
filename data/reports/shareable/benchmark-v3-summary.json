@@ -1,0 +1,769 @@
+{
+  "run_id": "bench-20261030c",
+  "complete": true,
+  "policy": "v3.1 (Docling list markers): NFC graphemes; remove whitespace; preserve case, punctuation, width and order",
+  "reference_sha256": "6eb14d19b02011827de2d9825aa211a0fa0986661e20946a78bdab0fbf4b246a",
+  "metric_code_sha256": "d8d2a5b6b41e7cdbbd5c76e60749050546e2adf6d9c734fc52609f661a3ba2df",
+  "scope": "aggregate metrics only; no reference text, prediction text, raw outputs or local commands",
+  "models": {
+    "rapid": {
+      "complete": true,
+      "groups": {
+        "chinese-or-mixed": {
+          "reference_chars": 1154,
+          "errors": 155,
+          "substitutions": 47,
+          "deletions": 84,
+          "insertions": 24,
+          "cer": 0.134315424610052,
+          "macro_cer": 0.18044767737564585,
+          "exact_count": 19,
+          "count": 40,
+          "ci95_parent_bootstrap": [
+            0.04810776138550353,
+            0.2482638888888889
+          ],
+          "alnum": {
+            "reference_chars": 1024,
+            "errors": 107,
+            "substitutions": 25,
+            "deletions": 59,
+            "insertions": 23,
+            "cer": 0.1044921875,
+            "macro_cer": 0.1611036480340278,
+            "exact_count": 27,
+            "count": 40
+          },
+          "spaces": {
+            "reference_chars": 1239,
+            "errors": 258,
+            "substitutions": 103,
+            "deletions": 83,
+            "insertions": 72,
+            "cer": 0.20823244552058112,
+            "macro_cer": 0.2635685708833642,
+            "exact_count": 10,
+            "count": 40
+          },
+          "han": {
+            "reference_chars": 685,
+            "errors": 57,
+            "substitutions": 21,
+            "deletions": 30,
+            "insertions": 6,
+            "cer": 0.08321167883211679,
+            "macro_cer": 0.1381963131963132,
+            "exact_count": 30,
+            "count": 40
+          }
+        },
+        "english": {
+          "reference_chars": 1168,
+          "errors": 39,
+          "substitutions": 5,
+          "deletions": 27,
+          "insertions": 7,
+          "cer": 0.03339041095890411,
+          "macro_cer": 0.12980685948995296,
+          "exact_count": 10,
+          "count": 20,
+          "ci95_parent_bootstrap": [
+            0.011275964391691394,
+            0.13
+          ],
+          "alnum": {
+            "reference_chars": 1114,
+            "errors": 32,
+            "substitutions": 3,
+            "deletions": 22,
+            "insertions": 7,
+            "cer": 0.02872531418312388,
+            "macro_cer": 0.11836683229558281,
+            "exact_count": 12,
+            "count": 20
+          },
+          "spaces": {
+            "reference_chars": 1355,
+            "errors": 121,
+            "substitutions": 6,
+            "deletions": 99,
+            "insertions": 16,
+            "cer": 0.08929889298892989,
+            "macro_cer": 0.1810918061457573,
+            "exact_count": 3,
+            "count": 20
+          },
+          "han": {
+            "reference_chars": 0,
+            "errors": 0,
+            "substitutions": 0,
+            "deletions": 0,
+            "insertions": 0,
+            "cer": null,
+            "macro_cer": null,
+            "exact_count": 20,
+            "count": 20
+          }
+        }
+      },
+      "by_dataset": {
+        "FUNSD": {
+          "reference_chars": 314,
+          "errors": 33,
+          "substitutions": 3,
+          "deletions": 26,
+          "insertions": 4,
+          "cer": 0.10509554140127389,
+          "macro_cer": 0.22172408577756172,
+          "exact_count": 4,
+          "count": 11
+        },
+        "OmniDocBench": {
+          "reference_chars": 1733,
+          "errors": 124,
+          "substitutions": 42,
+          "deletions": 62,
+          "insertions": 20,
+          "cer": 0.07155222158107329,
+          "macro_cer": 0.07883972404093888,
+          "exact_count": 15,
+          "count": 29
+        },
+        "ReCTS": {
+          "reference_chars": 34,
+          "errors": 20,
+          "substitutions": 7,
+          "deletions": 13,
+          "insertions": 0,
+          "cer": 0.5882352941176471,
+          "macro_cer": 0.6142857142857143,
+          "exact_count": 1,
+          "count": 6
+        },
+        "XFUND": {
+          "reference_chars": 241,
+          "errors": 17,
+          "substitutions": 0,
+          "deletions": 10,
+          "insertions": 7,
+          "cer": 0.07053941908713693,
+          "macro_cer": 0.10021521845501438,
+          "exact_count": 9,
+          "count": 14
+        }
+      },
+      "region_timing": {
+        "expected_count": 60,
+        "attempted_count": 60,
+        "count": 60,
+        "missing_count": 0,
+        "failed_count": 0,
+        "sum_seconds": 21.660176876815967,
+        "failed_seconds": 0,
+        "mean_seconds": 0.3610029479469328,
+        "p50_seconds": 0.24426577100530267,
+        "p95_seconds": 0.4808002080535516
+      },
+      "page_timing": {
+        "expected_count": 60,
+        "attempted_count": 60,
+        "count": 60,
+        "missing_count": 0,
+        "failed_count": 0,
+        "sum_seconds": 67.93716871039942,
+        "failed_seconds": 0,
+        "mean_seconds": 1.1322861451733237,
+        "p50_seconds": 0.8715328124817461,
+        "p95_seconds": 3.8577395000029355
+      },
+      "region_failed": 0,
+      "region_empty": 1,
+      "page_failed": 0,
+      "page_empty": 0,
+      "runtime": {
+        "versions": {
+          "rapidocr": "3.8.1",
+          "onnxruntime": "1.25.1"
+        },
+        "os": null,
+        "vision_revision": null,
+        "load_seconds": 1.4087162500945851,
+        "warmup_seconds": 0.4600545420544222,
+        "exit_code": 0,
+        "wall_seconds": 91.92966608295683,
+        "peak_tree_rss_bytes": 16742776832,
+        "sampling_interval_seconds": 0.05,
+        "stop_reason": null
+      }
+    },
+    "apple": {
+      "complete": true,
+      "groups": {
+        "chinese-or-mixed": {
+          "reference_chars": 1154,
+          "errors": 167,
+          "substitutions": 51,
+          "deletions": 113,
+          "insertions": 3,
+          "cer": 0.14471403812824957,
+          "macro_cer": 0.15774439498145162,
+          "exact_count": 19,
+          "count": 40,
+          "ci95_parent_bootstrap": [
+            0.043327556325823226,
+            0.32437275985663083
+          ],
+          "alnum": {
+            "reference_chars": 1024,
+            "errors": 114,
+            "substitutions": 22,
+            "deletions": 90,
+            "insertions": 2,
+            "cer": 0.111328125,
+            "macro_cer": 0.1399709836576925,
+            "exact_count": 27,
+            "count": 40
+          },
+          "spaces": {
+            "reference_chars": 1239,
+            "errors": 195,
+            "substitutions": 54,
+            "deletions": 132,
+            "insertions": 9,
+            "cer": 0.15738498789346247,
+            "macro_cer": 0.17544655345680285,
+            "exact_count": 18,
+            "count": 40
+          },
+          "han": {
+            "reference_chars": 685,
+            "errors": 100,
+            "substitutions": 11,
+            "deletions": 89,
+            "insertions": 0,
+            "cer": 0.145985401459854,
+            "macro_cer": 0.149497261997262,
+            "exact_count": 29,
+            "count": 40
+          }
+        },
+        "english": {
+          "reference_chars": 1168,
+          "errors": 23,
+          "substitutions": 22,
+          "deletions": 1,
+          "insertions": 0,
+          "cer": 0.019691780821917807,
+          "macro_cer": 0.029166889308457004,
+          "exact_count": 13,
+          "count": 20,
+          "ci95_parent_bootstrap": [
+            0.004067796610169492,
+            0.04156769596199525
+          ],
+          "alnum": {
+            "reference_chars": 1114,
+            "errors": 9,
+            "substitutions": 7,
+            "deletions": 2,
+            "insertions": 0,
+            "cer": 0.00807899461400359,
+            "macro_cer": 0.013937672176308539,
+            "exact_count": 17,
+            "count": 20
+          },
+          "spaces": {
+            "reference_chars": 1355,
+            "errors": 32,
+            "substitutions": 22,
+            "deletions": 10,
+            "insertions": 0,
+            "cer": 0.023616236162361623,
+            "macro_cer": 0.041068998986955645,
+            "exact_count": 9,
+            "count": 20
+          },
+          "han": {
+            "reference_chars": 0,
+            "errors": 0,
+            "substitutions": 0,
+            "deletions": 0,
+            "insertions": 0,
+            "cer": null,
+            "macro_cer": null,
+            "exact_count": 20,
+            "count": 20
+          }
+        }
+      },
+      "by_dataset": {
+        "FUNSD": {
+          "reference_chars": 314,
+          "errors": 13,
+          "substitutions": 12,
+          "deletions": 1,
+          "insertions": 0,
+          "cer": 0.041401273885350316,
+          "macro_cer": 0.04772027972027972,
+          "exact_count": 6,
+          "count": 11
+        },
+        "OmniDocBench": {
+          "reference_chars": 1733,
+          "errors": 156,
+          "substitutions": 52,
+          "deletions": 101,
+          "insertions": 3,
+          "cer": 0.09001731102135026,
+          "macro_cer": 0.10602545267419819,
+          "exact_count": 15,
+          "count": 29
+        },
+        "ReCTS": {
+          "reference_chars": 34,
+          "errors": 17,
+          "substitutions": 6,
+          "deletions": 11,
+          "insertions": 0,
+          "cer": 0.5,
+          "macro_cer": 0.5043650793650793,
+          "exact_count": 0,
+          "count": 6
+        },
+        "XFUND": {
+          "reference_chars": 241,
+          "errors": 4,
+          "substitutions": 3,
+          "deletions": 1,
+          "insertions": 0,
+          "cer": 0.016597510373443983,
+          "macro_cer": 0.01909013605442177,
+          "exact_count": 11,
+          "count": 14
+        }
+      },
+      "region_timing": {
+        "expected_count": 60,
+        "attempted_count": 60,
+        "count": 60,
+        "missing_count": 0,
+        "failed_count": 0,
+        "sum_seconds": 3.109323024749756,
+        "failed_seconds": 0,
+        "mean_seconds": 0.05182205041249593,
+        "p50_seconds": 0.044168949127197266,
+        "p95_seconds": 0.09988200664520264
+      },
+      "page_timing": {
+        "expected_count": 60,
+        "attempted_count": 60,
+        "count": 60,
+        "missing_count": 0,
+        "failed_count": 0,
+        "sum_seconds": 25.136033058166504,
+        "failed_seconds": 0,
+        "mean_seconds": 0.41893388430277506,
+        "p50_seconds": 0.3395555019378662,
+        "p95_seconds": 1.095263957977295
+      },
+      "region_failed": 0,
+      "region_empty": 2,
+      "page_failed": 0,
+      "page_empty": 1,
+      "runtime": {
+        "versions": {},
+        "os": "Version 26.3 (Build 25D125)",
+        "vision_revision": 3,
+        "load_seconds": null,
+        "warmup_seconds": 0.3182460069656372,
+        "exit_code": 0,
+        "wall_seconds": 30.729251499986276,
+        "peak_tree_rss_bytes": 358318080,
+        "sampling_interval_seconds": 0.05,
+        "stop_reason": null
+      }
+    },
+    "mineru": {
+      "complete": true,
+      "groups": {
+        "chinese-or-mixed": {
+          "reference_chars": 1154,
+          "errors": 164,
+          "substitutions": 17,
+          "deletions": 147,
+          "insertions": 0,
+          "cer": 0.14211438474870017,
+          "macro_cer": 0.1431546224076959,
+          "exact_count": 22,
+          "count": 40,
+          "ci95_parent_bootstrap": [
+            0.03402489626556016,
+            0.30714285714285716
+          ],
+          "alnum": {
+            "reference_chars": 1024,
+            "errors": 115,
+            "substitutions": 1,
+            "deletions": 114,
+            "insertions": 0,
+            "cer": 0.1123046875,
+            "macro_cer": 0.1188235294117647,
+            "exact_count": 34,
+            "count": 40
+          },
+          "spaces": {
+            "reference_chars": 1239,
+            "errors": 210,
+            "substitutions": 17,
+            "deletions": 191,
+            "insertions": 2,
+            "cer": 0.1694915254237288,
+            "macro_cer": 0.16184625444379744,
+            "exact_count": 17,
+            "count": 40
+          },
+          "han": {
+            "reference_chars": 685,
+            "errors": 37,
+            "substitutions": 1,
+            "deletions": 36,
+            "insertions": 0,
+            "cer": 0.05401459854014599,
+            "macro_cer": 0.13202614379084968,
+            "exact_count": 34,
+            "count": 40
+          }
+        },
+        "english": {
+          "reference_chars": 1168,
+          "errors": 216,
+          "substitutions": 2,
+          "deletions": 214,
+          "insertions": 0,
+          "cer": 0.18493150684931506,
+          "macro_cer": 0.15208938154306326,
+          "exact_count": 15,
+          "count": 20,
+          "ci95_parent_bootstrap": [
+            0.004285714285714286,
+            0.5866228070175439
+          ],
+          "alnum": {
+            "reference_chars": 1114,
+            "errors": 206,
+            "substitutions": 0,
+            "deletions": 206,
+            "insertions": 0,
+            "cer": 0.18491921005385997,
+            "macro_cer": 0.15,
+            "exact_count": 17,
+            "count": 20
+          },
+          "spaces": {
+            "reference_chars": 1355,
+            "errors": 255,
+            "substitutions": 2,
+            "deletions": 253,
+            "insertions": 0,
+            "cer": 0.1881918819188192,
+            "macro_cer": 0.1579656862745098,
+            "exact_count": 14,
+            "count": 20
+          },
+          "han": {
+            "reference_chars": 0,
+            "errors": 0,
+            "substitutions": 0,
+            "deletions": 0,
+            "insertions": 0,
+            "cer": null,
+            "macro_cer": null,
+            "exact_count": 20,
+            "count": 20
+          }
+        }
+      },
+      "by_dataset": {
+        "FUNSD": {
+          "reference_chars": 314,
+          "errors": 182,
+          "substitutions": 0,
+          "deletions": 182,
+          "insertions": 0,
+          "cer": 0.5796178343949044,
+          "macro_cer": 0.18181818181818182,
+          "exact_count": 9,
+          "count": 11
+        },
+        "OmniDocBench": {
+          "reference_chars": 1733,
+          "errors": 183,
+          "substitutions": 17,
+          "deletions": 166,
+          "insertions": 0,
+          "cer": 0.10559723023658396,
+          "macro_cer": 0.148638873340233,
+          "exact_count": 13,
+          "count": 29
+        },
+        "ReCTS": {
+          "reference_chars": 34,
+          "errors": 13,
+          "substitutions": 1,
+          "deletions": 12,
+          "insertions": 0,
+          "cer": 0.38235294117647056,
+          "macro_cer": 0.4,
+          "exact_count": 3,
+          "count": 6
+        },
+        "XFUND": {
+          "reference_chars": 241,
+          "errors": 2,
+          "substitutions": 1,
+          "deletions": 1,
+          "insertions": 0,
+          "cer": 0.008298755186721992,
+          "macro_cer": 0.004103228593024511,
+          "exact_count": 12,
+          "count": 14
+        }
+      },
+      "region_timing": {
+        "expected_count": 60,
+        "attempted_count": 60,
+        "count": 60,
+        "missing_count": 0,
+        "failed_count": 0,
+        "sum_seconds": 22.053265042137355,
+        "failed_seconds": 0,
+        "mean_seconds": 0.3675544173689559,
+        "p50_seconds": 0.34497752046445385,
+        "p95_seconds": 0.5570975829614326
+      },
+      "page_timing": {
+        "expected_count": 60,
+        "attempted_count": 60,
+        "count": 60,
+        "missing_count": 0,
+        "failed_count": 0,
+        "sum_seconds": 150.19768454530276,
+        "failed_seconds": 0,
+        "mean_seconds": 2.503294742421713,
+        "p50_seconds": 1.9425646035233513,
+        "p95_seconds": 7.477143209078349
+      },
+      "region_failed": 0,
+      "region_empty": 7,
+      "page_failed": 0,
+      "page_empty": 3,
+      "runtime": {
+        "versions": {
+          "mineru": "4.1.2",
+          "onnxruntime": "1.31.1"
+        },
+        "os": null,
+        "vision_revision": null,
+        "load_seconds": 0.233500708010979,
+        "warmup_seconds": 2.1195401669247076,
+        "exit_code": 0,
+        "wall_seconds": 175.06327533407602,
+        "peak_tree_rss_bytes": 4734435328,
+        "sampling_interval_seconds": 0.05,
+        "stop_reason": null
+      }
+    },
+    "docling": {
+      "complete": true,
+      "groups": {
+        "chinese-or-mixed": {
+          "reference_chars": 1154,
+          "errors": 198,
+          "substitutions": 71,
+          "deletions": 88,
+          "insertions": 39,
+          "cer": 0.17157712305025996,
+          "macro_cer": 0.20577000758463923,
+          "exact_count": 14,
+          "count": 40,
+          "ci95_parent_bootstrap": [
+            0.07366638441998306,
+            0.3014878621769773
+          ],
+          "alnum": {
+            "reference_chars": 1024,
+            "errors": 140,
+            "substitutions": 46,
+            "deletions": 63,
+            "insertions": 31,
+            "cer": 0.13671875,
+            "macro_cer": 0.18238435501093728,
+            "exact_count": 24,
+            "count": 40
+          },
+          "spaces": {
+            "reference_chars": 1239,
+            "errors": 299,
+            "substitutions": 105,
+            "deletions": 95,
+            "insertions": 99,
+            "cer": 0.2413236481033091,
+            "macro_cer": 0.28096098461997987,
+            "exact_count": 10,
+            "count": 40
+          },
+          "han": {
+            "reference_chars": 685,
+            "errors": 69,
+            "substitutions": 24,
+            "deletions": 39,
+            "insertions": 6,
+            "cer": 0.10072992700729927,
+            "macro_cer": 0.1520939770939771,
+            "exact_count": 28,
+            "count": 40
+          }
+        },
+        "english": {
+          "reference_chars": 1168,
+          "errors": 127,
+          "substitutions": 12,
+          "deletions": 61,
+          "insertions": 54,
+          "cer": 0.10873287671232877,
+          "macro_cer": 0.21527032356421766,
+          "exact_count": 6,
+          "count": 20,
+          "ci95_parent_bootstrap": [
+            0.06562054208273894,
+            0.1793570219966159
+          ],
+          "alnum": {
+            "reference_chars": 1114,
+            "errors": 112,
+            "substitutions": 9,
+            "deletions": 53,
+            "insertions": 50,
+            "cer": 0.10053859964093358,
+            "macro_cer": 0.19358427753690866,
+            "exact_count": 9,
+            "count": 20
+          },
+          "spaces": {
+            "reference_chars": 1355,
+            "errors": 173,
+            "substitutions": 51,
+            "deletions": 64,
+            "insertions": 58,
+            "cer": 0.12767527675276752,
+            "macro_cer": 0.25003767746127425,
+            "exact_count": 4,
+            "count": 20
+          },
+          "han": {
+            "reference_chars": 0,
+            "errors": 1,
+            "substitutions": 0,
+            "deletions": 0,
+            "insertions": 1,
+            "cer": null,
+            "macro_cer": null,
+            "exact_count": 19,
+            "count": 20
+          }
+        }
+      },
+      "by_dataset": {
+        "FUNSD": {
+          "reference_chars": 314,
+          "errors": 37,
+          "substitutions": 9,
+          "deletions": 23,
+          "insertions": 5,
+          "cer": 0.1178343949044586,
+          "macro_cer": 0.24710147131537505,
+          "exact_count": 3,
+          "count": 11
+        },
+        "OmniDocBench": {
+          "reference_chars": 1733,
+          "errors": 246,
+          "substitutions": 68,
+          "deletions": 100,
+          "insertions": 78,
+          "cer": 0.14195037507212926,
+          "macro_cer": 0.1580210344607953,
+          "exact_count": 9,
+          "count": 29
+        },
+        "ReCTS": {
+          "reference_chars": 34,
+          "errors": 19,
+          "substitutions": 4,
+          "deletions": 15,
+          "insertions": 0,
+          "cer": 0.5588235294117647,
+          "macro_cer": 0.5904761904761905,
+          "exact_count": 1,
+          "count": 6
+        },
+        "XFUND": {
+          "reference_chars": 241,
+          "errors": 23,
+          "substitutions": 2,
+          "deletions": 11,
+          "insertions": 10,
+          "cer": 0.0954356846473029,
+          "macro_cer": 0.1209016748557565,
+          "exact_count": 7,
+          "count": 14
+        }
+      },
+      "region_timing": {
+        "expected_count": 60,
+        "attempted_count": 60,
+        "count": 60,
+        "missing_count": 0,
+        "failed_count": 0,
+        "sum_seconds": 26.986588253406808,
+        "failed_seconds": 0,
+        "mean_seconds": 0.44977647089011347,
+        "p50_seconds": 0.3780768959550187,
+        "p95_seconds": 0.6075448340270668
+      },
+      "page_timing": {
+        "expected_count": 60,
+        "attempted_count": 60,
+        "count": 60,
+        "missing_count": 0,
+        "failed_count": 0,
+        "sum_seconds": 125.33798367111012,
+        "failed_seconds": 0,
+        "mean_seconds": 2.088966394518502,
+        "p50_seconds": 1.6573547295411117,
+        "p95_seconds": 5.630520791979507
+      },
+      "region_failed": 0,
+      "region_empty": 2,
+      "page_failed": 0,
+      "page_empty": 1,
+      "runtime": {
+        "versions": {
+          "docling": "2.108.0",
+          "rapidocr": "3.8.1",
+          "onnxruntime": "1.31.1",
+          "torch": "2.15.0"
+        },
+        "os": null,
+        "vision_revision": null,
+        "load_seconds": 6.356138041941449,
+        "warmup_seconds": 4.354577166028321,
+        "exit_code": 0,
+        "wall_seconds": 163.94078695797361,
+        "peak_tree_rss_bytes": 8413495296,
+        "sampling_interval_seconds": 0.05,
+        "stop_reason": null
+      }
+    }
+  }
+}

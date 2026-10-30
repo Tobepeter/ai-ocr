@@ -1,0 +1,14 @@
+[
+  {
+    "path": "data/input/zh-expansion-20261030/metadata/zh.val.zip",
+    "bytes": 69217820,
+    "sha256": "a30e6e5c274ea8236c9b00c46ab96d59829a5bcd08baee966fa433028b644456",
+    "url": "https://github.com/doc-analysis/XFUND/releases/download/v1.0/zh.val.zip"
+  },
+  {
+    "path": "data/input/zh-expansion-20261030/metadata/zh.val.json",
+    "bytes": 1711142,
+    "sha256": "b11140881255916a16670ea5006295d0185b8376287aa4aa76ae4e1107f61e3d",
+    "url": "https://github.com/doc-analysis/XFUND/releases/download/v1.0/zh.val.json"
+  }
+]

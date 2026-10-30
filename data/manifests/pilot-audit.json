@@ -1,0 +1,520 @@
+{
+  "count": 50,
+  "unique_hashes": 50,
+  "bytes": 28383062,
+  "source_counts": {
+    "OmniDocBench": 30,
+    "FUNSD": 12,
+    "olmOCR-bench": 8
+  },
+  "use_counts": {
+    "pilot-evaluation": 34,
+    "development": 6,
+    "challenge": 8,
+    "exploratory": 1,
+    "sparse-text": 1
+  },
+  "near_duplicate_candidates": [],
+  "cases": [
+    {
+      "case_id": "omni-001",
+      "use": "pilot-evaluation",
+      "annotation_count": 8,
+      "width": 2667,
+      "height": 1500,
+      "pages": 1,
+      "visually_screened": true,
+      "reference_fully_verified": false
+    },
+    {
+      "case_id": "omni-002",
+      "use": "pilot-evaluation",
+      "annotation_count": 5,
+      "width": 2000,
+      "height": 1500,
+      "pages": 1,
+      "visually_screened": true,
+      "reference_fully_verified": false
+    },
+    {
+      "case_id": "omni-003",
+      "use": "development",
+      "annotation_count": 3,
+      "width": 2000,
+      "height": 1500,
+      "pages": 1,
+      "visually_screened": true,
+      "reference_fully_verified": false
+    },
+    {
+      "case_id": "omni-004",
+      "use": "pilot-evaluation",
+      "annotation_count": 9,
+      "width": 1589,
+      "height": 2170,
+      "pages": 1,
+      "visually_screened": true,
+      "reference_fully_verified": false
+    },
+    {
+      "case_id": "omni-005",
+      "use": "pilot-evaluation",
+      "annotation_count": 7,
+      "width": 1675,
+      "height": 2175,
+      "pages": 1,
+      "visually_screened": true,
+      "reference_fully_verified": false
+    },
+    {
+      "case_id": "omni-006",
+      "use": "pilot-evaluation",
+      "annotation_count": 8,
+      "width": 1457,
+      "height": 2047,
+      "pages": 1,
+      "visually_screened": true,
+      "reference_fully_verified": false
+    },
+    {
+      "case_id": "omni-007",
+      "use": "development",
+      "annotation_count": 39,
+      "width": 1653,
+      "height": 2339,
+      "pages": 1,
+      "visually_screened": true,
+      "reference_fully_verified": false
+    },
+    {
+      "case_id": "omni-008",
+      "use": "pilot-evaluation",
+      "annotation_count": 4,
+      "width": 1700,
+      "height": 2200,
+      "pages": 1,
+      "visually_screened": true,
+      "reference_fully_verified": false
+    },
+    {
+      "case_id": "omni-009",
+      "use": "pilot-evaluation",
+      "annotation_count": 17,
+      "width": 1433,
+      "height": 2024,
+      "pages": 1,
+      "visually_screened": true,
+      "reference_fully_verified": false
+    },
+    {
+      "case_id": "omni-010",
+      "use": "pilot-evaluation",
+      "annotation_count": 9,
+      "width": 1464,
+      "height": 2154,
+      "pages": 1,
+      "visually_screened": true,
+      "reference_fully_verified": false
+    },
+    {
+      "case_id": "omni-011",
+      "use": "pilot-evaluation",
+      "annotation_count": 30,
+      "width": 1334,
+      "height": 1884,
+      "pages": 1,
+      "visually_screened": true,
+      "reference_fully_verified": false
+    },
+    {
+      "case_id": "omni-012",
+      "use": "pilot-evaluation",
+      "annotation_count": 9,
+      "width": 1700,
+      "height": 2175,
+      "pages": 1,
+      "visually_screened": true,
+      "reference_fully_verified": false
+    },
+    {
+      "case_id": "omni-013",
+      "use": "pilot-evaluation",
+      "annotation_count": 34,
+      "width": 614,
+      "height": 864,
+      "pages": 1,
+      "visually_screened": true,
+      "reference_fully_verified": false
+    },
+    {
+      "case_id": "omni-014",
+      "use": "pilot-evaluation",
+      "annotation_count": 31,
+      "width": 4000,
+      "height": 2852,
+      "pages": 1,
+      "visually_screened": true,
+      "reference_fully_verified": false
+    },
+    {
+      "case_id": "omni-015",
+      "use": "pilot-evaluation",
+      "annotation_count": 28,
+      "width": 6634,
+      "height": 9212,
+      "pages": 1,
+      "visually_screened": true,
+      "reference_fully_verified": false
+    },
+    {
+      "case_id": "omni-016",
+      "use": "pilot-evaluation",
+      "annotation_count": 14,
+      "width": 1701,
+      "height": 2386,
+      "pages": 1,
+      "visually_screened": true,
+      "reference_fully_verified": false
+    },
+    {
+      "case_id": "omni-017",
+      "use": "pilot-evaluation",
+      "annotation_count": 12,
+      "width": 1658,
+      "height": 2326,
+      "pages": 1,
+      "visually_screened": true,
+      "reference_fully_verified": false
+    },
+    {
+      "case_id": "omni-018",
+      "use": "challenge",
+      "annotation_count": 33,
+      "width": 777,
+      "height": 1139,
+      "pages": 1,
+      "visually_screened": true,
+      "reference_fully_verified": false
+    },
+    {
+      "case_id": "omni-019",
+      "use": "challenge",
+      "annotation_count": 11,
+      "width": 1111,
+      "height": 1631,
+      "pages": 1,
+      "visually_screened": true,
+      "reference_fully_verified": false
+    },
+    {
+      "case_id": "omni-020",
+      "use": "pilot-evaluation",
+      "annotation_count": 31,
+      "width": 1700,
+      "height": 2175,
+      "pages": 1,
+      "visually_screened": true,
+      "reference_fully_verified": false
+    },
+    {
+      "case_id": "omni-021",
+      "use": "exploratory",
+      "annotation_count": 26,
+      "width": 1536,
+      "height": 2048,
+      "pages": 1,
+      "visually_screened": true,
+      "reference_fully_verified": false
+    },
+    {
+      "case_id": "omni-022",
+      "use": "development",
+      "annotation_count": 13,
+      "width": 1654,
+      "height": 2339,
+      "pages": 1,
+      "visually_screened": true,
+      "reference_fully_verified": false
+    },
+    {
+      "case_id": "omni-023",
+      "use": "pilot-evaluation",
+      "annotation_count": 25,
+      "width": 1700,
+      "height": 2200,
+      "pages": 1,
+      "visually_screened": true,
+      "reference_fully_verified": false
+    },
+    {
+      "case_id": "omni-024",
+      "use": "pilot-evaluation",
+      "annotation_count": 95,
+      "width": 2754,
+      "height": 3939,
+      "pages": 1,
+      "visually_screened": true,
+      "reference_fully_verified": false
+    },
+    {
+      "case_id": "omni-025",
+      "use": "challenge",
+      "annotation_count": 13,
+      "width": 1432,
+      "height": 2024,
+      "pages": 1,
+      "visually_screened": true,
+      "reference_fully_verified": false
+    },
+    {
+      "case_id": "omni-026",
+      "use": "sparse-text",
+      "annotation_count": 1,
+      "width": 1432,
+      "height": 2024,
+      "pages": 1,
+      "visually_screened": true,
+      "reference_fully_verified": false
+    },
+    {
+      "case_id": "omni-027",
+      "use": "challenge",
+      "annotation_count": 16,
+      "width": 1434,
+      "height": 2026,
+      "pages": 1,
+      "visually_screened": true,
+      "reference_fully_verified": false
+    },
+    {
+      "case_id": "omni-028",
+      "use": "pilot-evaluation",
+      "annotation_count": 10,
+      "width": 1653,
+      "height": 2206,
+      "pages": 1,
+      "visually_screened": true,
+      "reference_fully_verified": false
+    },
+    {
+      "case_id": "omni-029",
+      "use": "pilot-evaluation",
+      "annotation_count": 8,
+      "width": 1655,
+      "height": 2340,
+      "pages": 1,
+      "visually_screened": true,
+      "reference_fully_verified": false
+    },
+    {
+      "case_id": "omni-030",
+      "use": "pilot-evaluation",
+      "annotation_count": 11,
+      "width": 1654,
+      "height": 2245,
+      "pages": 1,
+      "visually_screened": true,
+      "reference_fully_verified": false
+    },
+    {
+      "case_id": "funsd-86075409_5410",
+      "use": "pilot-evaluation",
+      "annotation_count": 57,
+      "width": 802,
+      "height": 1000,
+      "pages": 1,
+      "visually_screened": true,
+      "reference_fully_verified": false
+    },
+    {
+      "case_id": "funsd-82573104",
+      "use": "development",
+      "annotation_count": 17,
+      "width": 754,
+      "height": 1000,
+      "pages": 1,
+      "visually_screened": true,
+      "reference_fully_verified": false
+    },
+    {
+      "case_id": "funsd-82251504",
+      "use": "pilot-evaluation",
+      "annotation_count": 42,
+      "width": 754,
+      "height": 1000,
+      "pages": 1,
+      "visually_screened": true,
+      "reference_fully_verified": false
+    },
+    {
+      "case_id": "funsd-83573282",
+      "use": "pilot-evaluation",
+      "annotation_count": 55,
+      "width": 754,
+      "height": 1000,
+      "pages": 1,
+      "visually_screened": true,
+      "reference_fully_verified": false
+    },
+    {
+      "case_id": "funsd-86263525",
+      "use": "development",
+      "annotation_count": 29,
+      "width": 780,
+      "height": 1000,
+      "pages": 1,
+      "visually_screened": true,
+      "reference_fully_verified": false
+    },
+    {
+      "case_id": "funsd-82250337_0338",
+      "use": "pilot-evaluation",
+      "annotation_count": 36,
+      "width": 754,
+      "height": 1000,
+      "pages": 1,
+      "visually_screened": true,
+      "reference_fully_verified": false
+    },
+    {
+      "case_id": "funsd-85629964",
+      "use": "pilot-evaluation",
+      "annotation_count": 38,
+      "width": 777,
+      "height": 1000,
+      "pages": 1,
+      "visually_screened": true,
+      "reference_fully_verified": false
+    },
+    {
+      "case_id": "funsd-83641919_1921",
+      "use": "pilot-evaluation",
+      "annotation_count": 103,
+      "width": 802,
+      "height": 1000,
+      "pages": 1,
+      "visually_screened": true,
+      "reference_fully_verified": false
+    },
+    {
+      "case_id": "funsd-86079776_9777",
+      "use": "pilot-evaluation",
+      "annotation_count": 42,
+      "width": 754,
+      "height": 1000,
+      "pages": 1,
+      "visually_screened": true,
+      "reference_fully_verified": false
+    },
+    {
+      "case_id": "funsd-87086073",
+      "use": "pilot-evaluation",
+      "annotation_count": 28,
+      "width": 802,
+      "height": 1000,
+      "pages": 1,
+      "visually_screened": true,
+      "reference_fully_verified": false
+    },
+    {
+      "case_id": "funsd-86328049_8050",
+      "use": "pilot-evaluation",
+      "annotation_count": 84,
+      "width": 754,
+      "height": 1000,
+      "pages": 1,
+      "visually_screened": true,
+      "reference_fully_verified": false
+    },
+    {
+      "case_id": "funsd-82253245_3247",
+      "use": "pilot-evaluation",
+      "annotation_count": 70,
+      "width": 754,
+      "height": 1000,
+      "pages": 1,
+      "visually_screened": true,
+      "reference_fully_verified": false
+    },
+    {
+      "case_id": "olm-84",
+      "use": "challenge",
+      "annotation_count": 6,
+      "width": 450,
+      "height": 364,
+      "pages": 1,
+      "visually_screened": true,
+      "reference_fully_verified": false
+    },
+    {
+      "case_id": "olm-31",
+      "use": "pilot-evaluation",
+      "annotation_count": 10,
+      "width": 349,
+      "height": 450,
+      "pages": 1,
+      "visually_screened": true,
+      "reference_fully_verified": false
+    },
+    {
+      "case_id": "olm-44",
+      "use": "challenge",
+      "annotation_count": 4,
+      "width": 284,
+      "height": 450,
+      "pages": 1,
+      "visually_screened": true,
+      "reference_fully_verified": false
+    },
+    {
+      "case_id": "olm-24",
+      "use": "development",
+      "annotation_count": 6,
+      "width": 450,
+      "height": 276,
+      "pages": 1,
+      "visually_screened": true,
+      "reference_fully_verified": false
+    },
+    {
+      "case_id": "olm-55",
+      "use": "challenge",
+      "annotation_count": 3,
+      "width": 284,
+      "height": 450,
+      "pages": 1,
+      "visually_screened": true,
+      "reference_fully_verified": false
+    },
+    {
+      "case_id": "olm-65",
+      "use": "pilot-evaluation",
+      "annotation_count": 6,
+      "width": 450,
+      "height": 348,
+      "pages": 1,
+      "visually_screened": true,
+      "reference_fully_verified": false
+    },
+    {
+      "case_id": "olm-74",
+      "use": "challenge",
+      "annotation_count": 8,
+      "width": 450,
+      "height": 371,
+      "pages": 1,
+      "visually_screened": true,
+      "reference_fully_verified": false
+    },
+    {
+      "case_id": "olm-67",
+      "use": "pilot-evaluation",
+      "annotation_count": 3,
+      "width": 450,
+      "height": 368,
+      "pages": 1,
+      "visually_screened": true,
+      "reference_fully_verified": false
+    }
+  ]
+}

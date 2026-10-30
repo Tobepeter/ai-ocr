@@ -1,0 +1,25 @@
+{
+  "run_id": "bench-20261030",
+  "selection": "balanced60-v1",
+  "started_utc": "2026-10-30T05:30:08Z",
+  "hardware": "Apple M4 Max, arm64, 64 GiB; macOS 26.3 (25D125)",
+  "cpu_threads": 4,
+  "image_long_side": 2000,
+  "case_timeout_seconds": 120,
+  "lightweight_policy": {
+    "new_model_weights_soft_limit_gib": 1,
+    "preflight_cases": 6,
+    "expand_if": "successful and typical page latency <=30 sec; otherwise subset only",
+    "no_cloud_api": true
+  },
+  "candidates": [
+    "rapid",
+    "paddle",
+    "tesseract",
+    "easy",
+    "docling",
+    "MinerU",
+    "GLM-OCR",
+    "PaddleOCR-VL"
+  ]
+}

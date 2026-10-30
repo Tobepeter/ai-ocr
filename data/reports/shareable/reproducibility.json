@@ -1,0 +1,11 @@
+{
+  "derived_images_rebuilt": 126,
+  "hashes_match": true,
+  "second_pass_writes": 0,
+  "source": "existing original material files",
+  "network_recovery_tested": false,
+  "date": "2026-10-30",
+  "tests_passed": 20,
+  "historical_files_unchanged": 601,
+  "global_model_hashes_verified": true
+}

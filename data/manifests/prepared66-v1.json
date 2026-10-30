@@ -1,0 +1,990 @@
+{
+  "created": "2026-10-30",
+  "policy": "RGB; longest side <=2000; no upscale; PDF first page image only; no native text extraction",
+  "cases": [
+    {
+      "case_id": "omni-001",
+      "dataset": "OmniDocBench",
+      "language_group": "chinese-or-mixed",
+      "stratum": "PPT2PDF",
+      "input_path": "data/input/balanced60-v1/omni-001/input.png",
+      "sha256": "8ae1cd0720a28630235c2806d9e8067182d7228af63c6369ab35b3e76f2adb83",
+      "prepared_path": "data/outputs/bench-20261030/inputs/omni-001.png",
+      "prepared_sha256": "79d7cc53f68a2acbe4e6829631c53bded8f6849eba2f5f0f180dbc0ab68af1a4",
+      "size": [
+        2000,
+        1125
+      ],
+      "phase": "full"
+    },
+    {
+      "case_id": "omni-002",
+      "dataset": "OmniDocBench",
+      "language_group": "english",
+      "stratum": "PPT2PDF",
+      "input_path": "data/input/balanced60-v1/omni-002/input.png",
+      "sha256": "019e674809a0d46c90f8ddd278f46c0bfe66483e1affcfbb2be511a3e2fcd989",
+      "prepared_path": "data/outputs/bench-20261030/inputs/omni-002.png",
+      "prepared_sha256": "fa9d3f09155af389d8a27ccdf364c93e82a341a1b04b71c6abfec6c2ec6a551a",
+      "size": [
+        2000,
+        1500
+      ],
+      "phase": "full"
+    },
+    {
+      "case_id": "omni-004",
+      "dataset": "OmniDocBench",
+      "language_group": "chinese-or-mixed",
+      "stratum": "academic_literature",
+      "input_path": "data/input/balanced60-v1/omni-004/input.png",
+      "sha256": "bd2954743dc7651f76a7772f4657900a63f96607247e7a760d3edcb3866694e0",
+      "prepared_path": "data/outputs/bench-20261030/inputs/omni-004.png",
+      "prepared_sha256": "33978fa815770137fd3f17b4e938d83091c8a45b48f2415523359c5373eb900a",
+      "size": [
+        1465,
+        2000
+      ],
+      "phase": "full"
+    },
+    {
+      "case_id": "omni-006",
+      "dataset": "OmniDocBench",
+      "language_group": "chinese-or-mixed",
+      "stratum": "academic_literature",
+      "input_path": "data/input/balanced60-v1/omni-006/input.png",
+      "sha256": "84935f2747c3aae7c7b78d147a902003b52f4865818063875aabdba7de290d9f",
+      "prepared_path": "data/outputs/bench-20261030/inputs/omni-006.png",
+      "prepared_sha256": "9c4178b2f1507cf2f161e7a90f84feeb8ee94c2d00fbe57380168003b79caef8",
+      "size": [
+        1424,
+        2000
+      ],
+      "phase": "full"
+    },
+    {
+      "case_id": "omni-008",
+      "dataset": "OmniDocBench",
+      "language_group": "english",
+      "stratum": "book",
+      "input_path": "data/input/balanced60-v1/omni-008/input.jpg",
+      "sha256": "55b4772479e0bc7dc68561ea54685730d2c08372a2c207035584a40e650afa46",
+      "prepared_path": "data/outputs/bench-20261030/inputs/omni-008.png",
+      "prepared_sha256": "561f35ba2eac96491d19f5f2befb7293b05097bd777fa99281cfdb1e5ddfc09f",
+      "size": [
+        1545,
+        2000
+      ],
+      "phase": "full"
+    },
+    {
+      "case_id": "omni-009",
+      "dataset": "OmniDocBench",
+      "language_group": "chinese-or-mixed",
+      "stratum": "book",
+      "input_path": "data/input/balanced60-v1/omni-009/input.png",
+      "sha256": "5f97ef5fefb8a43e65e7bcf5f3226669d976368d573e631613998f9a96a0cdd7",
+      "prepared_path": "data/outputs/bench-20261030/inputs/omni-009.png",
+      "prepared_sha256": "bc01e96617055c345548b650e0a8f631dfe16d4e069b707cafd5fffeeb29c196",
+      "size": [
+        1416,
+        2000
+      ],
+      "phase": "full"
+    },
+    {
+      "case_id": "omni-011",
+      "dataset": "OmniDocBench",
+      "language_group": "chinese-or-mixed",
+      "stratum": "colorful_textbook",
+      "input_path": "data/input/balanced60-v1/omni-011/input.png",
+      "sha256": "12ccd5e7ec7c99481312e3ee2236def1eb29cffef478f646c946a52ed0fd7795",
+      "prepared_path": "data/outputs/bench-20261030/inputs/omni-011.png",
+      "prepared_sha256": "7bea7862155e57a0a9ce313954e399986066bfae06877a74f0cb72dec6030a8f",
+      "size": [
+        1334,
+        1884
+      ],
+      "phase": "full"
+    },
+    {
+      "case_id": "omni-012",
+      "dataset": "OmniDocBench",
+      "language_group": "english",
+      "stratum": "colorful_textbook",
+      "input_path": "data/input/balanced60-v1/omni-012/input.jpg",
+      "sha256": "10d1210684104b201224ef6430f995f19fd1bf8a8ed96420ac40e87b64da0488",
+      "prepared_path": "data/outputs/bench-20261030/inputs/omni-012.png",
+      "prepared_sha256": "bb7d17e5ff3586571cf03b3df8f2a3d9843b79ea5a46132b53247ade8492433c",
+      "size": [
+        1563,
+        2000
+      ],
+      "phase": "full"
+    },
+    {
+      "case_id": "omni-013",
+      "dataset": "OmniDocBench",
+      "language_group": "chinese-or-mixed",
+      "stratum": "colorful_textbook",
+      "input_path": "data/input/balanced60-v1/omni-013/input.jpg",
+      "sha256": "1054948e0b128fc47b09e6b31b4fc7a0a93a6de811b60b96ceec98902fd4c63f",
+      "prepared_path": "data/outputs/bench-20261030/inputs/omni-013.png",
+      "prepared_sha256": "b4ff12e737c487170b59169de2bf6427e46fc5f4b66717ec580bcbf9ed8d900d",
+      "size": [
+        614,
+        864
+      ],
+      "phase": "full"
+    },
+    {
+      "case_id": "omni-014",
+      "dataset": "OmniDocBench",
+      "language_group": "chinese-or-mixed",
+      "stratum": "exam_paper",
+      "input_path": "data/input/balanced60-v1/omni-014/input.jpg",
+      "sha256": "c7a6c4651cd941f7759dd4a91650a6146c1be6cc029c7041da13b1a3389663dd",
+      "prepared_path": "data/outputs/bench-20261030/inputs/omni-014.png",
+      "prepared_sha256": "0480df43db4798804b8b0814f31101f5a0fdaf1c14326e6bad03d0ed85879212",
+      "size": [
+        2000,
+        1426
+      ],
+      "phase": "full"
+    },
+    {
+      "case_id": "omni-016",
+      "dataset": "OmniDocBench",
+      "language_group": "chinese-or-mixed",
+      "stratum": "exam_paper",
+      "input_path": "data/input/balanced60-v1/omni-016/input.jpg",
+      "sha256": "78e15ac5c3a12e411de71d26f1cada083a2af66f94001bb3b56f3d0a5223bdd6",
+      "prepared_path": "data/outputs/bench-20261030/inputs/omni-016.png",
+      "prepared_sha256": "1a8c59a07481856cb92be786bd0c8165d2897deb44f609a9f2c522fef706604f",
+      "size": [
+        1426,
+        2000
+      ],
+      "phase": "full"
+    },
+    {
+      "case_id": "omni-019",
+      "dataset": "OmniDocBench",
+      "language_group": "chinese-or-mixed",
+      "stratum": "historical_document",
+      "input_path": "data/input/balanced60-v1/omni-019/input.png",
+      "sha256": "73d6248eceac4dd6218e22237082ced988dd1fd46d917b1b87f721ce86971048",
+      "prepared_path": "data/outputs/bench-20261030/inputs/omni-019.png",
+      "prepared_sha256": "fa5980afb5665200fb795ee7a63d6b2bf76c3ea96dd731ac63e7c6947237aa16",
+      "size": [
+        1111,
+        1631
+      ],
+      "phase": "full"
+    },
+    {
+      "case_id": "omni-024",
+      "dataset": "OmniDocBench",
+      "language_group": "chinese-or-mixed",
+      "stratum": "newspaper",
+      "input_path": "data/input/balanced60-v1/omni-024/input.jpg",
+      "sha256": "643f1b7e4c0f1db2890f0f452cea6ce7fc8fb81abd3e2ea45e94c41d3de0b16e",
+      "prepared_path": "data/outputs/bench-20261030/inputs/omni-024.png",
+      "prepared_sha256": "035504f70cf9b786017d60d3dc0d5c0dd452490eb6f981ba137e2896e1af1edd",
+      "size": [
+        1398,
+        2000
+      ],
+      "phase": "full"
+    },
+    {
+      "case_id": "omni-025",
+      "dataset": "OmniDocBench",
+      "language_group": "chinese-or-mixed",
+      "stratum": "note",
+      "input_path": "data/input/balanced60-v1/omni-025/input.jpg",
+      "sha256": "293845555229105cc709acc5c672acb133bd0911bd90904c741664089d3f5f64",
+      "prepared_path": "data/outputs/bench-20261030/inputs/omni-025.png",
+      "prepared_sha256": "59dbc2f6b1947adea79b7f199eba34fa8071c6ac4307992974e5c51084ae1354",
+      "size": [
+        1415,
+        2000
+      ],
+      "phase": "full"
+    },
+    {
+      "case_id": "omni-027",
+      "dataset": "OmniDocBench",
+      "language_group": "chinese-or-mixed",
+      "stratum": "note",
+      "input_path": "data/input/balanced60-v1/omni-027/input.jpg",
+      "sha256": "85aa0b31df239ed6daad59dc895a00622e34b00de4d47583b7828d595a1411ad",
+      "prepared_path": "data/outputs/bench-20261030/inputs/omni-027.png",
+      "prepared_sha256": "62e78ec0c115dfd10f1ef673086a20ddfbeb7e939ab1a42e9b3b8b94a04cf088",
+      "size": [
+        1416,
+        2000
+      ],
+      "phase": "full"
+    },
+    {
+      "case_id": "omni-028",
+      "dataset": "OmniDocBench",
+      "language_group": "english",
+      "stratum": "research_report",
+      "input_path": "data/input/balanced60-v1/omni-028/input.png",
+      "sha256": "4ee0c19b89398647e93a49fc5b478d4b099c342c764936acd5db0b5b0b8e8d87",
+      "prepared_path": "data/outputs/bench-20261030/inputs/omni-028.png",
+      "prepared_sha256": "cb27857674f3be487d619b4338436259d89aec92c59ab152ba3591a68a43782e",
+      "size": [
+        1499,
+        2000
+      ],
+      "phase": "full"
+    },
+    {
+      "case_id": "omni-029",
+      "dataset": "OmniDocBench",
+      "language_group": "chinese-or-mixed",
+      "stratum": "research_report",
+      "input_path": "data/input/balanced60-v1/omni-029/input.jpg",
+      "sha256": "a274aa22a6f5c1a650448efe5bbd98c3505c515dbe92c8e292984e5e08cc66fe",
+      "prepared_path": "data/outputs/bench-20261030/inputs/omni-029.png",
+      "prepared_sha256": "34e81c64449543edba254c5e8ed70d856bb8b752e49833919562dff8d0e89dd9",
+      "size": [
+        1415,
+        2000
+      ],
+      "phase": "full"
+    },
+    {
+      "case_id": "omni-030",
+      "dataset": "OmniDocBench",
+      "language_group": "chinese-or-mixed",
+      "stratum": "research_report",
+      "input_path": "data/input/balanced60-v1/omni-030/input.png",
+      "sha256": "c8c9306b5ade9638819cd4a86972df0aef35d42ab24157e877fcd66441636358",
+      "prepared_path": "data/outputs/bench-20261030/inputs/omni-030.png",
+      "prepared_sha256": "64655c49b1cd379d35fc7fb9526d0d2c2f21594ffffcd273fde3aea8cb6de483",
+      "size": [
+        1473,
+        2000
+      ],
+      "phase": "full"
+    },
+    {
+      "case_id": "funsd-86075409_5410",
+      "dataset": "FUNSD",
+      "language_group": "english",
+      "stratum": "form",
+      "input_path": "data/input/balanced60-v1/funsd-86075409_5410/input.png",
+      "sha256": "f411c20b0d7440bb4f6ce812eeaa1e3c0f60d4cab3d22e22faea3846f7bc5afb",
+      "prepared_path": "data/outputs/bench-20261030/inputs/funsd-86075409_5410.png",
+      "prepared_sha256": "044656321394404ff63d909404404cd151cc808a950b11138e8f5950db6524f2",
+      "size": [
+        802,
+        1000
+      ],
+      "phase": "full"
+    },
+    {
+      "case_id": "funsd-82251504",
+      "dataset": "FUNSD",
+      "language_group": "english",
+      "stratum": "form",
+      "input_path": "data/input/balanced60-v1/funsd-82251504/input.png",
+      "sha256": "8fd472ccbdbd5349d8fbc6adf52311d69d47651a289b482b9850db20e9c43354",
+      "prepared_path": "data/outputs/bench-20261030/inputs/funsd-82251504.png",
+      "prepared_sha256": "4f0eeb692cbd35768afdb03f0e6b1ce634a01bbbd25e7f352818fadebf96bf28",
+      "size": [
+        754,
+        1000
+      ],
+      "phase": "full"
+    },
+    {
+      "case_id": "funsd-83573282",
+      "dataset": "FUNSD",
+      "language_group": "english",
+      "stratum": "form",
+      "input_path": "data/input/balanced60-v1/funsd-83573282/input.png",
+      "sha256": "fd29914a80290994db59fc3b2c2b601905d871902bc4a38ab56423180a973d33",
+      "prepared_path": "data/outputs/bench-20261030/inputs/funsd-83573282.png",
+      "prepared_sha256": "5cc9ac5072e01ffeebfd5dcdb2d4f53b6ac84a2bb62824902bdb0e07ae722866",
+      "size": [
+        754,
+        1000
+      ],
+      "phase": "full"
+    },
+    {
+      "case_id": "funsd-82250337_0338",
+      "dataset": "FUNSD",
+      "language_group": "english",
+      "stratum": "form",
+      "input_path": "data/input/balanced60-v1/funsd-82250337_0338/input.png",
+      "sha256": "5b5083f4127a00a212fcc5c1cbb580e9d1851180f4fbb888ca7c5911baa6da4f",
+      "prepared_path": "data/outputs/bench-20261030/inputs/funsd-82250337_0338.png",
+      "prepared_sha256": "3cd4e583315a91f109552a777e7e4b65f61f7f7787cbe4d300c88a8bfcbb039b",
+      "size": [
+        754,
+        1000
+      ],
+      "phase": "full"
+    },
+    {
+      "case_id": "funsd-85629964",
+      "dataset": "FUNSD",
+      "language_group": "english",
+      "stratum": "form",
+      "input_path": "data/input/balanced60-v1/funsd-85629964/input.png",
+      "sha256": "af4e7d5d04bc1fdc283e12a601f980293759ef957589f329f1686b0765553ce9",
+      "prepared_path": "data/outputs/bench-20261030/inputs/funsd-85629964.png",
+      "prepared_sha256": "6018d6079b0beb3dd5614fb63b58c014784855f69e9d9154f8b62340c95b26af",
+      "size": [
+        777,
+        1000
+      ],
+      "phase": "full"
+    },
+    {
+      "case_id": "funsd-83641919_1921",
+      "dataset": "FUNSD",
+      "language_group": "english",
+      "stratum": "form",
+      "input_path": "data/input/balanced60-v1/funsd-83641919_1921/input.png",
+      "sha256": "9ba2b62e5ed2e3c21c58939856198216118c39b916c34b7a8a9d1232db1e531d",
+      "prepared_path": "data/outputs/bench-20261030/inputs/funsd-83641919_1921.png",
+      "prepared_sha256": "c842b8f3b0c5392ae774ab66cfb8ce2e1ad6e9a327beaacf46face734799a23d",
+      "size": [
+        802,
+        1000
+      ],
+      "phase": "full"
+    },
+    {
+      "case_id": "funsd-86079776_9777",
+      "dataset": "FUNSD",
+      "language_group": "english",
+      "stratum": "form",
+      "input_path": "data/input/balanced60-v1/funsd-86079776_9777/input.png",
+      "sha256": "69a71ffee24903961802e4a108a83411b11e15e1492516ab7a0eb70bdb02ee8a",
+      "prepared_path": "data/outputs/bench-20261030/inputs/funsd-86079776_9777.png",
+      "prepared_sha256": "c4759e2806a78ab3b3ecd14879a26dde096c1cab4b753d9e4aeb75c1425b4b61",
+      "size": [
+        754,
+        1000
+      ],
+      "phase": "full"
+    },
+    {
+      "case_id": "funsd-87086073",
+      "dataset": "FUNSD",
+      "language_group": "english",
+      "stratum": "form",
+      "input_path": "data/input/balanced60-v1/funsd-87086073/input.png",
+      "sha256": "bd10809b73420704f0695cf8279c2548db2f511605fc506ea41a4b403a66eedf",
+      "prepared_path": "data/outputs/bench-20261030/inputs/funsd-87086073.png",
+      "prepared_sha256": "9aa3a923a2fd8be81e2897b1c4ca160b2630048d616e71258f0bb9cdf9a032a6",
+      "size": [
+        802,
+        1000
+      ],
+      "phase": "full"
+    },
+    {
+      "case_id": "funsd-86328049_8050",
+      "dataset": "FUNSD",
+      "language_group": "english",
+      "stratum": "form",
+      "input_path": "data/input/balanced60-v1/funsd-86328049_8050/input.png",
+      "sha256": "a099fce72084289ea6a424193d97270b60d3249938162a09778ae836d9c3f0b5",
+      "prepared_path": "data/outputs/bench-20261030/inputs/funsd-86328049_8050.png",
+      "prepared_sha256": "5fb654ec448b0d31c4f77d8d2dd5f9979dbdc42df9896a2f32ceab9317396b36",
+      "size": [
+        754,
+        1000
+      ],
+      "phase": "full"
+    },
+    {
+      "case_id": "funsd-82253245_3247",
+      "dataset": "FUNSD",
+      "language_group": "english",
+      "stratum": "form",
+      "input_path": "data/input/balanced60-v1/funsd-82253245_3247/input.png",
+      "sha256": "1023df93d5a35aba85c3ad232a4dbb9f6d8609068f5ec09f1c59a7e5738318d0",
+      "prepared_path": "data/outputs/bench-20261030/inputs/funsd-82253245_3247.png",
+      "prepared_sha256": "38e244b15aca58a7369847f0b062c40bb0f753970a9cf4d93b6729ec69f5ec46",
+      "size": [
+        754,
+        1000
+      ],
+      "phase": "full"
+    },
+    {
+      "case_id": "olm-84",
+      "dataset": "olmOCR-bench",
+      "language_group": "english",
+      "stratum": "old-scan",
+      "input_path": "data/input/balanced60-v1/olm-84/input.pdf",
+      "sha256": "8baef0dae173530e0835a13aadd1f4f4c816dd16b8cc11d28e4a21a901b09036",
+      "prepared_path": "data/outputs/bench-20261030/inputs/olm-84.png",
+      "prepared_sha256": "8859ca375b7f35c164877f44963c26eda9019b8eaff47d98f13d537af69ef6c2",
+      "size": [
+        2000,
+        1615
+      ],
+      "phase": "full"
+    },
+    {
+      "case_id": "olm-31",
+      "dataset": "olmOCR-bench",
+      "language_group": "english",
+      "stratum": "old-scan",
+      "input_path": "data/input/balanced60-v1/olm-31/input.pdf",
+      "sha256": "e10a3c771646dc3fe3f9762863cfd04be5d6587d2fabd0e36e11d37d158ff001",
+      "prepared_path": "data/outputs/bench-20261030/inputs/olm-31.png",
+      "prepared_sha256": "d8d50c7b74eab4811d20a9beb7dbc117c4cb17f18655f33040b5bbb4832f20bd",
+      "size": [
+        1548,
+        2000
+      ],
+      "phase": "full"
+    },
+    {
+      "case_id": "olm-55",
+      "dataset": "olmOCR-bench",
+      "language_group": "english",
+      "stratum": "old-scan",
+      "input_path": "data/input/balanced60-v1/olm-55/input.pdf",
+      "sha256": "10bd6dc2ab673b24a6fafeff71ad1303b0abd316dde6aba2dd1caad23e196757",
+      "prepared_path": "data/outputs/bench-20261030/inputs/olm-55.png",
+      "prepared_sha256": "f38e37e12b146fdcda537e85819b524b4f14fde4c3590185e62cb82e0ebafc66",
+      "size": [
+        1262,
+        2000
+      ],
+      "phase": "full"
+    },
+    {
+      "case_id": "olm-65",
+      "dataset": "olmOCR-bench",
+      "language_group": "english",
+      "stratum": "old-scan",
+      "input_path": "data/input/balanced60-v1/olm-65/input.pdf",
+      "sha256": "99fb641ef5239f003627a6dabf62c96f4187fd1b9ab419ece07ab48bd36c5bca",
+      "prepared_path": "data/outputs/bench-20261030/inputs/olm-65.png",
+      "prepared_sha256": "99094d7696d1ff828c88955f3bbfcff02dfb9d81b04c83f40a8a58b7d334bb49",
+      "size": [
+        2000,
+        1543
+      ],
+      "phase": "full"
+    },
+    {
+      "case_id": "olm-74",
+      "dataset": "olmOCR-bench",
+      "language_group": "english",
+      "stratum": "old-scan",
+      "input_path": "data/input/balanced60-v1/olm-74/input.pdf",
+      "sha256": "e09c2755f1c7ed57bd286ebde693807a6a7a9d3a50f1d672500cf85a9f20d496",
+      "prepared_path": "data/outputs/bench-20261030/inputs/olm-74.png",
+      "prepared_sha256": "4ddfcf93472886fd47a86d02c963e2adc011216c6cb27584ae6b9506d0149b30",
+      "size": [
+        2000,
+        1646
+      ],
+      "phase": "full"
+    },
+    {
+      "case_id": "olm-67",
+      "dataset": "olmOCR-bench",
+      "language_group": "english",
+      "stratum": "old-scan",
+      "input_path": "data/input/balanced60-v1/olm-67/input.pdf",
+      "sha256": "08e9dedce22dfc447085c5226eb3a7bc3f29bed1f5ee2b4120f7c5f4cab31a93",
+      "prepared_path": "data/outputs/bench-20261030/inputs/olm-67.png",
+      "prepared_sha256": "19652aa20b8b892098117aee9186c46ed341ff89e6642926e83d40f26196559b",
+      "size": [
+        2000,
+        1633
+      ],
+      "phase": "full"
+    },
+    {
+      "case_id": "estvqa-0038",
+      "dataset": "ESTVQA",
+      "language_group": "chinese-or-mixed",
+      "stratum": "scene-question-answer",
+      "input_path": "data/input/balanced60-v1/estvqa-0038/input.jpg",
+      "sha256": "d8423338172ab3469384504e3abfa66125c96f24e54a3aafafd584815b054b9b",
+      "prepared_path": "data/outputs/bench-20261030/inputs/estvqa-0038.png",
+      "prepared_sha256": "ced887004acc00e83e02ddf5d91477d8b0ddd5f5a23312065767db0cb1fc7209",
+      "size": [
+        760,
+        1080
+      ],
+      "phase": "full"
+    },
+    {
+      "case_id": "estvqa-0225",
+      "dataset": "ESTVQA",
+      "language_group": "chinese-or-mixed",
+      "stratum": "scene-question-answer",
+      "input_path": "data/input/balanced60-v1/estvqa-0225/input.jpg",
+      "sha256": "afe3e0d9ab8032ec10d343d7cfa6d446eadd8bd8e35829f3dd33c7b943ef1942",
+      "prepared_path": "data/outputs/bench-20261030/inputs/estvqa-0225.png",
+      "prepared_sha256": "98b2735a3f3d073fee7efa6a40d078151b0a2f9ae91f55094f97e8b942d67ea2",
+      "size": [
+        1080,
+        520
+      ],
+      "phase": "full"
+    },
+    {
+      "case_id": "estvqa-0341",
+      "dataset": "ESTVQA",
+      "language_group": "chinese-or-mixed",
+      "stratum": "scene-question-answer",
+      "input_path": "data/input/balanced60-v1/estvqa-0341/input.jpg",
+      "sha256": "f6727f6d1bb5edb20f368ecef32e52f2a5e4055f9621851d5094565c69979a2f",
+      "prepared_path": "data/outputs/bench-20261030/inputs/estvqa-0341.png",
+      "prepared_sha256": "e7a83faf3f474511a3885a176ec05fd2b9586a1cfbf6a107cdccca89b4c06cfe",
+      "size": [
+        960,
+        1150
+      ],
+      "phase": "full"
+    },
+    {
+      "case_id": "estvqa-0421",
+      "dataset": "ESTVQA",
+      "language_group": "chinese-or-mixed",
+      "stratum": "scene-question-answer",
+      "input_path": "data/input/balanced60-v1/estvqa-0421/input.jpg",
+      "sha256": "aee1b553dc6135d652752c5fed8f351d075b392511938abad17b668c1624f464",
+      "prepared_path": "data/outputs/bench-20261030/inputs/estvqa-0421.png",
+      "prepared_sha256": "1e5640be1ee24bf33862e69313c9b73402230f7d99eaacd1a2988cd8fe7b4ec6",
+      "size": [
+        960,
+        1150
+      ],
+      "phase": "full"
+    },
+    {
+      "case_id": "estvqa-0558",
+      "dataset": "ESTVQA",
+      "language_group": "chinese-or-mixed",
+      "stratum": "scene-question-answer",
+      "input_path": "data/input/balanced60-v1/estvqa-0558/input.jpg",
+      "sha256": "079c757c0409c8bdf1804abbfbdb4920a51aa9ba94a68ae8176a6637862103dc",
+      "prepared_path": "data/outputs/bench-20261030/inputs/estvqa-0558.png",
+      "prepared_sha256": "4b6812ee8f928c9f19580abdbd8bfb083e165bb65e65793c9f98f2bc20f78a7a",
+      "size": [
+        960,
+        1150
+      ],
+      "phase": "full"
+    },
+    {
+      "case_id": "estvqa-0573",
+      "dataset": "ESTVQA",
+      "language_group": "chinese-or-mixed",
+      "stratum": "scene-question-answer",
+      "input_path": "data/input/balanced60-v1/estvqa-0573/input.jpg",
+      "sha256": "0f8c3d7e0b2de8fe668999a5e2d5e08b5325084c46b8b75ca78158b26146f872",
+      "prepared_path": "data/outputs/bench-20261030/inputs/estvqa-0573.png",
+      "prepared_sha256": "393450803a57e0d3cc4638a003fe83c1b3eeb545348dcf017ef89a98d261eba5",
+      "size": [
+        960,
+        1145
+      ],
+      "phase": "full"
+    },
+    {
+      "case_id": "rects-1214",
+      "dataset": "ReCTS",
+      "language_group": "chinese-or-mixed",
+      "stratum": "scene-text",
+      "input_path": "data/input/balanced60-v1/rects-1214/input.jpg",
+      "sha256": "22506334d05253477889aa3a214b93a2996dbf998a8e0fa71ae298cbe85cedba",
+      "prepared_path": "data/outputs/bench-20261030/inputs/rects-1214.png",
+      "prepared_sha256": "3ef64b9b16ddb82a678d0bb2dad540f46626443e2cf77e2944fa61bd9537a25c",
+      "size": [
+        604,
+        173
+      ],
+      "phase": "full"
+    },
+    {
+      "case_id": "rects-1781",
+      "dataset": "ReCTS",
+      "language_group": "chinese-or-mixed",
+      "stratum": "scene-text",
+      "input_path": "data/input/balanced60-v1/rects-1781/input.jpg",
+      "sha256": "42a34ced6c42b652f32fcd9db56795b3ae9f3f6357bc4f8793c6636d751e9b99",
+      "prepared_path": "data/outputs/bench-20261030/inputs/rects-1781.png",
+      "prepared_sha256": "d1684b2df8aa36637291e66ed6a1ce8a56bcf0d9fda8c980349bcafa2df9918a",
+      "size": [
+        343,
+        57
+      ],
+      "phase": "full"
+    },
+    {
+      "case_id": "rects-1815",
+      "dataset": "ReCTS",
+      "language_group": "chinese-or-mixed",
+      "stratum": "scene-text",
+      "input_path": "data/input/balanced60-v1/rects-1815/input.jpg",
+      "sha256": "8f8eb660196b09040d892d8a75d78d78f104bbe72b4a96e8f1903068738f9f2d",
+      "prepared_path": "data/outputs/bench-20261030/inputs/rects-1815.png",
+      "prepared_sha256": "f2e4c81cf33ff83e7a29561da257b730580f91b224a78725e9c6f7244638ac68",
+      "size": [
+        106,
+        27
+      ],
+      "phase": "full"
+    },
+    {
+      "case_id": "rects-2826",
+      "dataset": "ReCTS",
+      "language_group": "chinese-or-mixed",
+      "stratum": "scene-text",
+      "input_path": "data/input/balanced60-v1/rects-2826/input.jpg",
+      "sha256": "93cd209454aa94fc8912a6da601cba08004cb0e6fbe36fc5d0fb3375df11524f",
+      "prepared_path": "data/outputs/bench-20261030/inputs/rects-2826.png",
+      "prepared_sha256": "9b285f9681d9ba3611b471c983aa022b1c05ad3b25a80858998a34006e31582e",
+      "size": [
+        330,
+        52
+      ],
+      "phase": "full"
+    },
+    {
+      "case_id": "rects-3130",
+      "dataset": "ReCTS",
+      "language_group": "chinese-or-mixed",
+      "stratum": "scene-text",
+      "input_path": "data/input/balanced60-v1/rects-3130/input.jpg",
+      "sha256": "285ae9f82b4d74435c51aedf245747a858377ac5d3eb932e3301193199a93fca",
+      "prepared_path": "data/outputs/bench-20261030/inputs/rects-3130.png",
+      "prepared_sha256": "5716c4899ca3f55ad62f34cc483ade790eac0abc9636f65b2123a22311d039cb",
+      "size": [
+        630,
+        141
+      ],
+      "phase": "full"
+    },
+    {
+      "case_id": "rects-3308",
+      "dataset": "ReCTS",
+      "language_group": "chinese-or-mixed",
+      "stratum": "scene-text",
+      "input_path": "data/input/balanced60-v1/rects-3308/input.jpg",
+      "sha256": "ea7972a82a628975cb8724a732bcde3091e7fe3b3a8b2158eab16b0f37b3dd49",
+      "prepared_path": "data/outputs/bench-20261030/inputs/rects-3308.png",
+      "prepared_sha256": "bd7b1d646956fd87ca98e14f7bf58fde928f6d7e659c0bad8a94ee7b2e035279",
+      "size": [
+        261,
+        35
+      ],
+      "phase": "full"
+    },
+    {
+      "case_id": "xfund-zh_val_28",
+      "dataset": "XFUND",
+      "language_group": "chinese-or-mixed",
+      "stratum": "form",
+      "input_path": "data/input/balanced60-v1/xfund-zh_val_28/input.jpg",
+      "sha256": "6d645d44b62dd7eb00302b7d65f9f21481db67190053037868383fc357d51005",
+      "prepared_path": "data/outputs/bench-20261030/inputs/xfund-zh_val_28.png",
+      "prepared_sha256": "e7db5f19185f1f64534def54d6c676ef38d44ab8ce18e4f5db5cebf662f395aa",
+      "size": [
+        1414,
+        2000
+      ],
+      "phase": "full"
+    },
+    {
+      "case_id": "xfund-zh_val_25",
+      "dataset": "XFUND",
+      "language_group": "chinese-or-mixed",
+      "stratum": "form",
+      "input_path": "data/input/balanced60-v1/xfund-zh_val_25/input.jpg",
+      "sha256": "8c4877bf3007615ca107f3b4b6a0e85bf563c7c0e3e2584c207a086c41609e6d",
+      "prepared_path": "data/outputs/bench-20261030/inputs/xfund-zh_val_25.png",
+      "prepared_sha256": "1dcd0814bd95224236ccd48447f119c55e1c5a7d0f4844f906d031d4bd0e7f52",
+      "size": [
+        1414,
+        2000
+      ],
+      "phase": "full"
+    },
+    {
+      "case_id": "xfund-zh_val_32",
+      "dataset": "XFUND",
+      "language_group": "chinese-or-mixed",
+      "stratum": "form",
+      "input_path": "data/input/balanced60-v1/xfund-zh_val_32/input.jpg",
+      "sha256": "e1f06c1d2afb81deb0bd1c7d10e1a4ab279d477f39d134fab62f0ca3d6d297cb",
+      "prepared_path": "data/outputs/bench-20261030/inputs/xfund-zh_val_32.png",
+      "prepared_sha256": "d9d0f78f22054910107076c2796cfdfc842e4ea58c389b305575dc8d4e0eff98",
+      "size": [
+        1414,
+        2000
+      ],
+      "phase": "full"
+    },
+    {
+      "case_id": "xfund-zh_val_17",
+      "dataset": "XFUND",
+      "language_group": "chinese-or-mixed",
+      "stratum": "form",
+      "input_path": "data/input/balanced60-v1/xfund-zh_val_17/input.jpg",
+      "sha256": "6e4d418ca8bdd7e28c7d474c3d7f39ffb87a50fc457530f5f3e105a6273acb2d",
+      "prepared_path": "data/outputs/bench-20261030/inputs/xfund-zh_val_17.png",
+      "prepared_sha256": "71bf7f645d2b3756143e0b0c1e92f7561bfa778c53d600d34681c0be6485dbfe",
+      "size": [
+        1414,
+        2000
+      ],
+      "phase": "full"
+    },
+    {
+      "case_id": "xfund-zh_val_47",
+      "dataset": "XFUND",
+      "language_group": "chinese-or-mixed",
+      "stratum": "form",
+      "input_path": "data/input/balanced60-v1/xfund-zh_val_47/input.jpg",
+      "sha256": "d5825b4771b7df887371349482eddd14dbac321b069c7bbfcc2871ea0fe773f0",
+      "prepared_path": "data/outputs/bench-20261030/inputs/xfund-zh_val_47.png",
+      "prepared_sha256": "702e1123ba3dd9f13ad78ab86c57298fc006f0e51db846cd8e575cadd8d251db",
+      "size": [
+        1414,
+        2000
+      ],
+      "phase": "full"
+    },
+    {
+      "case_id": "xfund-zh_val_6",
+      "dataset": "XFUND",
+      "language_group": "chinese-or-mixed",
+      "stratum": "form",
+      "input_path": "data/input/balanced60-v1/xfund-zh_val_6/input.jpg",
+      "sha256": "0b5388e99f0e7b0b9dd576f294b639e523c11907df9ce135fd6723cfae501fe1",
+      "prepared_path": "data/outputs/bench-20261030/inputs/xfund-zh_val_6.png",
+      "prepared_sha256": "b4fb8291dafb4167023a47bbb94e20f1c08e45706801462c37a0a005c0085ee9",
+      "size": [
+        1414,
+        2000
+      ],
+      "phase": "full"
+    },
+    {
+      "case_id": "xfund-zh_val_18",
+      "dataset": "XFUND",
+      "language_group": "chinese-or-mixed",
+      "stratum": "form",
+      "input_path": "data/input/balanced60-v1/xfund-zh_val_18/input.jpg",
+      "sha256": "eb7c1711451ad6ce3fbc338054fd1f0c115252fba5c5e59d0d7fbd6343afdc80",
+      "prepared_path": "data/outputs/bench-20261030/inputs/xfund-zh_val_18.png",
+      "prepared_sha256": "68cc5d286fa39e28bb96d395af036299075c5ba32dd0b626791b21d2f5f9bded",
+      "size": [
+        1414,
+        2000
+      ],
+      "phase": "full"
+    },
+    {
+      "case_id": "xfund-zh_val_13",
+      "dataset": "XFUND",
+      "language_group": "chinese-or-mixed",
+      "stratum": "form",
+      "input_path": "data/input/balanced60-v1/xfund-zh_val_13/input.jpg",
+      "sha256": "70d1a929fe6483c70137bbd5865c30616d9043db5c36d7db9bd5293fc454bd97",
+      "prepared_path": "data/outputs/bench-20261030/inputs/xfund-zh_val_13.png",
+      "prepared_sha256": "134cd4ca7de1bff3ce84b80e57b55b4094fcd7bea5c460f29806e39469a3e564",
+      "size": [
+        1414,
+        2000
+      ],
+      "phase": "full"
+    },
+    {
+      "case_id": "xfund-zh_val_1",
+      "dataset": "XFUND",
+      "language_group": "chinese-or-mixed",
+      "stratum": "form",
+      "input_path": "data/input/balanced60-v1/xfund-zh_val_1/input.jpg",
+      "sha256": "f636f02d1d653a2c05ac5b04cafb25cd45aadf7c7a8172333c419987dba04147",
+      "prepared_path": "data/outputs/bench-20261030/inputs/xfund-zh_val_1.png",
+      "prepared_sha256": "7466f1ac7f9ccc949256e7ad2ab944dce437331f12fa350f1036d25968debf92",
+      "size": [
+        1414,
+        2000
+      ],
+      "phase": "full"
+    },
+    {
+      "case_id": "xfund-zh_val_8",
+      "dataset": "XFUND",
+      "language_group": "chinese-or-mixed",
+      "stratum": "form",
+      "input_path": "data/input/balanced60-v1/xfund-zh_val_8/input.jpg",
+      "sha256": "6f8b99ca280e8cf307176af0b7cf66aa62031b5d58c7ec8330c44d55d5203295",
+      "prepared_path": "data/outputs/bench-20261030/inputs/xfund-zh_val_8.png",
+      "prepared_sha256": "6674b1a9a78ec4fa86d27ea7c793e5b1ccd23e32692c3a43a3d29478f63ee427",
+      "size": [
+        1414,
+        2000
+      ],
+      "phase": "full"
+    },
+    {
+      "case_id": "xfund-zh_val_49",
+      "dataset": "XFUND",
+      "language_group": "chinese-or-mixed",
+      "stratum": "form",
+      "input_path": "data/input/balanced60-v1/xfund-zh_val_49/input.jpg",
+      "sha256": "cc285d5c70b7b2fe5052cb6bdc00310760def4c7ba77b2c0ae8321715416a048",
+      "prepared_path": "data/outputs/bench-20261030/inputs/xfund-zh_val_49.png",
+      "prepared_sha256": "53f922d3c35d49d870b88e1557644a5378476dc19b3cab3de72640cd5a0740f1",
+      "size": [
+        2000,
+        1414
+      ],
+      "phase": "full"
+    },
+    {
+      "case_id": "xfund-zh_val_29",
+      "dataset": "XFUND",
+      "language_group": "chinese-or-mixed",
+      "stratum": "form",
+      "input_path": "data/input/balanced60-v1/xfund-zh_val_29/input.jpg",
+      "sha256": "da1c30863a00ee1c8e4b8e5abd8e12b159cc352b4b7552d4073a266b2ce1afbc",
+      "prepared_path": "data/outputs/bench-20261030/inputs/xfund-zh_val_29.png",
+      "prepared_sha256": "25ca8ee1c04389103f96bc1cdf686d0fedb073c438115f773c455dd23eee2768",
+      "size": [
+        1414,
+        2000
+      ],
+      "phase": "full"
+    },
+    {
+      "case_id": "xfund-zh_val_34",
+      "dataset": "XFUND",
+      "language_group": "chinese-or-mixed",
+      "stratum": "form",
+      "input_path": "data/input/balanced60-v1/xfund-zh_val_34/input.jpg",
+      "sha256": "da73f2a67321df557afc0a09e5da9d446c9e41942d1dccaa655fc5386cd55944",
+      "prepared_path": "data/outputs/bench-20261030/inputs/xfund-zh_val_34.png",
+      "prepared_sha256": "ad2c0a6e979233f5a2604e9ce4047964f8927041277ee4759b9a5d106a3c8dc5",
+      "size": [
+        1414,
+        2000
+      ],
+      "phase": "full"
+    },
+    {
+      "case_id": "xfund-zh_val_4",
+      "dataset": "XFUND",
+      "language_group": "chinese-or-mixed",
+      "stratum": "form",
+      "input_path": "data/input/balanced60-v1/xfund-zh_val_4/input.jpg",
+      "sha256": "290685942ccdb28e568ab8df867c17b698dbb4de65ab3bbe1ed6770353a370dc",
+      "prepared_path": "data/outputs/bench-20261030/inputs/xfund-zh_val_4.png",
+      "prepared_sha256": "26b12a9369b8d43f43b909793d84d3a732f2b177bce220e8d785d389eca2b382",
+      "size": [
+        1414,
+        2000
+      ],
+      "phase": "full"
+    },
+    {
+      "case_id": "omni-003",
+      "dataset": "OmniDocBench",
+      "stratum": "PPT2PDF",
+      "input_path": "data/input/development6-v1/omni-003/input.jpg",
+      "sha256": "92db41ddc03255e571e6383646946f38f4ac0841968d9737a5d0160e45a256e8",
+      "prepared_path": "data/outputs/bench-20261030/inputs/omni-003.png",
+      "prepared_sha256": "404977153d36dd67faea4d19b484f0baee9fcdb8f8c688f4c80c36fd43f1ae05",
+      "size": [
+        2000,
+        1500
+      ],
+      "phase": "preflight"
+    },
+    {
+      "case_id": "omni-007",
+      "dataset": "OmniDocBench",
+      "stratum": "book",
+      "input_path": "data/input/development6-v1/omni-007/input.png",
+      "sha256": "e77b9eea263dcce466caea30b26acc4d27112e74347de24009a692dc1464ceb1",
+      "prepared_path": "data/outputs/bench-20261030/inputs/omni-007.png",
+      "prepared_sha256": "a998c185dce1ce34e4b2a08dd86568620fe56212b7ac8026f4ba8c66dcd69e7c",
+      "size": [
+        1413,
+        2000
+      ],
+      "phase": "preflight"
+    },
+    {
+      "case_id": "omni-022",
+      "dataset": "OmniDocBench",
+      "stratum": "magazine",
+      "input_path": "data/input/development6-v1/omni-022/input.jpg",
+      "sha256": "476e224a81e27d3c75922d3fa76fa61ee9560053afc620d5eb3699fde230ba22",
+      "prepared_path": "data/outputs/bench-20261030/inputs/omni-022.png",
+      "prepared_sha256": "2e596e9138e538c4e1bec5b34b9f0ee7ffb4d540c61bbc4ce6214a5502a204bb",
+      "size": [
+        1414,
+        2000
+      ],
+      "phase": "preflight"
+    },
+    {
+      "case_id": "funsd-82573104",
+      "dataset": "FUNSD",
+      "stratum": "form",
+      "input_path": "data/input/development6-v1/funsd-82573104/input.png",
+      "sha256": "b0e9f8efecc27dd6445f849aace051078ecbb300b8c6440731d080c39697f18f",
+      "prepared_path": "data/outputs/bench-20261030/inputs/funsd-82573104.png",
+      "prepared_sha256": "433386acf9c7852d75fe4a2346a5b50ae5559f84a2d6583118d9a5cf85984721",
+      "size": [
+        754,
+        1000
+      ],
+      "phase": "preflight"
+    },
+    {
+      "case_id": "funsd-86263525",
+      "dataset": "FUNSD",
+      "stratum": "form",
+      "input_path": "data/input/development6-v1/funsd-86263525/input.png",
+      "sha256": "694f4b61dd50eac22dffef45ee3d4dc3f0478bd608d81a21f7fdfcde2aa5ff3d",
+      "prepared_path": "data/outputs/bench-20261030/inputs/funsd-86263525.png",
+      "prepared_sha256": "d456c7a43c688857384ab713ed78fb72c9a103075b686c53412c2a0e9b315e96",
+      "size": [
+        780,
+        1000
+      ],
+      "phase": "preflight"
+    },
+    {
+      "case_id": "olm-24",
+      "dataset": "olmOCR-bench",
+      "stratum": "old-scan",
+      "input_path": "data/input/development6-v1/olm-24/input.pdf",
+      "sha256": "4b8f9f39bbd692d8b0f55cf5d530c5c5404a9bd8ee5a48d59b5e010d22fff7da",
+      "prepared_path": "data/outputs/bench-20261030/inputs/olm-24.png",
+      "prepared_sha256": "1821606ceba7e0d29e7171ba3ddf3d2cbe9d7b8a4af2791244cc48373f6a9d4e",
+      "size": [
+        2000,
+        1223
+      ],
+      "phase": "preflight"
+    }
+  ]
+}

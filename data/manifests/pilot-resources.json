@@ -1,0 +1,20 @@
+[
+  {
+    "name": "omni-download.json",
+    "url": "https://huggingface.co/datasets/opendatalab/OmniDocBench/resolve/aa1ee96d106dbe53d0ae59474d75c6e6d9b53fec/OmniDocBench.json?download=true",
+    "bytes": 42208096,
+    "sha256": "a45cd84b04ad8b793e775089640e6b681209abea33ead54c1828ddca35fae496"
+  },
+  {
+    "name": "funsd-official.zip",
+    "url": "https://raw.githubusercontent.com/guillaumejaume/FUNSD/8905aca92b3181853307e2880e3d6f71dee8e9f3/dataset.zip",
+    "bytes": 16838830,
+    "sha256": "c31735649e4f441bcbb4fd0f379574f7520b42286e80b01d80b445649d54761f"
+  },
+  {
+    "name": "olmOCR-bench-annotations.json",
+    "url": "https://huggingface.co/datasets/allenai/olmOCR-bench/resolve/54a96a6fb6a2bd3b297e59869491db4d3625b711/bench_data/old_scans.jsonl",
+    "bytes": 194580,
+    "sha256": "0cb14b2a5c3a08383f256931f79d1deea737e2635e0f1766b0fe0377f9416a0d"
+  }
+]

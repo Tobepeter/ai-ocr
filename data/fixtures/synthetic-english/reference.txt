@@ -1,0 +1,3 @@
+Local OCR verification
+Invoice DEMO-002: 12 items, total 128.50
+Keep punctuation, digits and letter case

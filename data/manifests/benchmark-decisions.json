@@ -1,0 +1,58 @@
+{
+  "run_id": "bench-20261030",
+  "decisions": [
+    {
+      "engine": "rapid",
+      "decision": "completed-full60",
+      "reason": "复用已装3.8.1及缓存PP-OCRv4 ONNX，开发集通过",
+      "success": 60,
+      "total": 60
+    },
+    {
+      "engine": "paddle",
+      "decision": "completed-full60",
+      "reason": "复用3.5.0和缓存PP-OCRv5 mobile，开发集通过",
+      "success": 60,
+      "total": 60
+    },
+    {
+      "engine": "tesseract",
+      "decision": "completed-full60",
+      "reason": "复用系统5.5.2，简中繁中英文语言包已装",
+      "success": 60,
+      "total": 60
+    },
+    {
+      "engine": "easy",
+      "decision": "completed-full60",
+      "reason": "在项目隔离环境安装1.7.2，小模型CPU路线",
+      "success": 60,
+      "total": 60
+    },
+    {
+      "engine": "docling",
+      "decision": "completed-full60",
+      "reason": "文档流水线使用RapidOCR后端；检查布局模型成本及预检延迟",
+      "success": 60,
+      "total": 60
+    },
+    {
+      "engine": "glm-ocr",
+      "decision": "not-run",
+      "reason": "官方原版权重2650579464 bytes，超过本次单方案新增权重1 GiB软预算；未改走量化或云端",
+      "source": "https://huggingface.co/zai-org/GLM-OCR"
+    },
+    {
+      "engine": "paddleocr-vl",
+      "decision": "not-run",
+      "reason": "官方1.6权重1917255968 bytes，超过本次单方案新增权重1 GiB软预算",
+      "source": "https://huggingface.co/PaddlePaddle/PaddleOCR-VL-1.6"
+    },
+    {
+      "engine": "mineru",
+      "decision": "not-run",
+      "reason": "本轮先覆盖一个文档流水线Docling；MinerU4.x额外运行时和依赖范围较大，Basic虽可使用小模型，未将其认定为超出内存，只按轻量安装范围暂缓",
+      "source": "https://github.com/opendatalab/MinerU"
+    }
+  ]
+}

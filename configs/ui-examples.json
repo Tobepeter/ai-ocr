@@ -1,0 +1,102 @@
+[
+  {
+    "case_id": "synthetic-mixed",
+    "label": "自制·中文混排",
+    "path": "data/fixtures/synthetic-mixed/input.png"
+  },
+  {
+    "case_id": "synthetic-english",
+    "label": "自制·英文",
+    "path": "data/fixtures/synthetic-english/input.png"
+  },
+  {
+    "case_id": "omni-003",
+    "label": "中文·课件封面",
+    "path": "data/outputs/bench-20261030/inputs/omni-003.png"
+  },
+  {
+    "case_id": "omni-001",
+    "label": "中英混排·PPT表格",
+    "path": "data/outputs/bench-20261030/inputs/omni-001.png"
+  },
+  {
+    "case_id": "omni-007",
+    "label": "中文·代码与说明",
+    "path": "data/outputs/bench-20261030/inputs/omni-007.png"
+  },
+  {
+    "case_id": "omni-006",
+    "label": "中文·论文",
+    "path": "data/outputs/bench-20261030/inputs/omni-006.png"
+  },
+  {
+    "case_id": "omni-009",
+    "label": "中文·书页",
+    "path": "data/outputs/bench-20261030/inputs/omni-009.png"
+  },
+  {
+    "case_id": "omni-011",
+    "label": "中英混排·彩色教材",
+    "path": "data/outputs/bench-20261030/inputs/omni-011.png"
+  },
+  {
+    "case_id": "omni-013",
+    "label": "中文·教材",
+    "path": "data/outputs/bench-20261030/inputs/omni-013.png"
+  },
+  {
+    "case_id": "omni-014",
+    "label": "中英混排·试卷",
+    "path": "data/outputs/bench-20261030/inputs/omni-014.png"
+  },
+  {
+    "case_id": "omni-024",
+    "label": "中文·密集报纸",
+    "path": "data/outputs/bench-20261030/inputs/omni-024.png"
+  },
+  {
+    "case_id": "omni-029",
+    "label": "中文·研究报告",
+    "path": "data/outputs/bench-20261030/inputs/omni-029.png"
+  },
+  {
+    "case_id": "omni-030",
+    "label": "繁体中文·报告",
+    "path": "data/outputs/bench-20261030/inputs/omni-030.png"
+  },
+  {
+    "case_id": "xfund-zh_val_25",
+    "label": "中文·表单",
+    "path": "data/outputs/bench-20261030/inputs/xfund-zh_val_25.png"
+  },
+  {
+    "case_id": "estvqa-0038",
+    "label": "中文·街景",
+    "path": "data/outputs/bench-20261030/inputs/estvqa-0038.png"
+  },
+  {
+    "case_id": "rects-1214",
+    "label": "中文·招牌文字行",
+    "path": "data/outputs/bench-20261030/inputs/rects-1214.png"
+  },
+  {
+    "case_id": "omni-002",
+    "label": "英文·课件",
+    "path": "data/outputs/bench-20261030/inputs/omni-002.png"
+  },
+  {
+    "case_id": "omni-008",
+    "label": "英文·书页",
+    "path": "data/outputs/bench-20261030/inputs/omni-008.png"
+  },
+  {
+    "case_id": "funsd-82251504",
+    "label": "英文·表单",
+    "path": "data/outputs/bench-20261030/inputs/funsd-82251504.png"
+  },
+  {
+    "case_id": "olm-84",
+    "label": "英文·旧扫描",
+    "path": "data/outputs/bench-20261030/inputs/olm-84.png"
+  }
+]

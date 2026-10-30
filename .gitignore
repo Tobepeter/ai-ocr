@@ -1,0 +1,59 @@
+# 本地接力与运行环境
+.temp/
+.venv/
+node_modules/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+dist/
+build/
+*.egg-info/
+.DS_Store
+*.log
+*.tmp
+
+# 密钥
+.env
+.env.*
+!.env.example
+
+# 大型或私有物料与批量机器输出；小型样本放 data/fixtures/
+data/input/
+data/references/
+data/outputs/
+data/models/
+external/
+
+# data/fixtures/、data/manifests/、data/reports/ 可纳入 Git
+# 报告JSON见下方单独规则；提交前检查体积和敏感信息
+
+.venv-*/
+
+# 详细JSON可能含识别原文、参考原文和本机路径；只发布显式导出的汇总
+/data/reports/**/*.json
+!/data/reports/shareable/
+!/data/reports/shareable/*.json
+
+# 模型/下载缓存、认证与编辑器本机状态
+.cache/
+.uv-cache/
+.idea/
+.vscode/
+*.onnx
+*.safetensors
+*.gguf
+*.pt
+*.pth
+*.ckpt
+*.pem
+*.key
+*.p12
+*.part
+
+# 公开仓库不分发研究参考转录及内嵌原文的历史盲审脚本
+/data/manifests/recognition60-v3.json
+/scripts/bench-v3-review.py

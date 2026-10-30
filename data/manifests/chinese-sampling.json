@@ -1,0 +1,64 @@
+{
+  "seed": 20261030,
+  "ranges": {
+    "ESTVQA": [
+      0,
+      708
+    ],
+    "ReCTS": [
+      709,
+      3409
+    ]
+  },
+  "selected_indices": [
+    [
+      "ESTVQA",
+      38
+    ],
+    [
+      "ESTVQA",
+      225
+    ],
+    [
+      "ESTVQA",
+      341
+    ],
+    [
+      "ESTVQA",
+      421
+    ],
+    [
+      "ESTVQA",
+      558
+    ],
+    [
+      "ESTVQA",
+      573
+    ],
+    [
+      "ReCTS",
+      1214
+    ],
+    [
+      "ReCTS",
+      1781
+    ],
+    [
+      "ReCTS",
+      1815
+    ],
+    [
+      "ReCTS",
+      2826
+    ],
+    [
+      "ReCTS",
+      3130
+    ],
+    [
+      "ReCTS",
+      3308
+    ]
+  ],
+  "revision": "857e91af744e05b234c504caf900f932f236de71"
+}

@@ -1,0 +1,440 @@
+{
+  "scope": "candidate files under current project and global ignore rules; not staged or committed",
+  "count": 105,
+  "bytes": 1048277,
+  "ignore_probes": {
+    ".temp/notes.md": "ignored",
+    ".venv/bin/python": "ignored",
+    "data/input/customer.png": "ignored",
+    "data/outputs/run/report.json": "ignored",
+    "data/reports/benchmark-v3.json": "ignored",
+    "data/reports/shareable/benchmark-v3-summary.json": "candidate",
+    "data/fixtures/synthetic-mixed/input.png": "candidate",
+    "uv.lock": "candidate",
+    "configs/rapid-models.json": "candidate",
+    ".env": "ignored",
+    "model.onnx": "ignored"
+  },
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 1005
+    },
+    {
+      "path": "README.md",
+      "bytes": 2618
+    },
+    {
+      "path": "configs/benchmark-round2.json",
+      "bytes": 497
+    },
+    {
+      "path": "configs/benchmark.json",
+      "bytes": 605
+    },
+    {
+      "path": "configs/rapid-models.json",
+      "bytes": 721
+    },
+    {
+      "path": "configs/ui-examples.json",
+      "bytes": 2695
+    },
+    {
+      "path": "data/README.md",
+      "bytes": 5012
+    },
+    {
+      "path": "data/fixtures/README.md",
+      "bytes": 577
+    },
+    {
+      "path": "data/fixtures/synthetic-english/input.png",
+      "bytes": 24252
+    },
+    {
+      "path": "data/fixtures/synthetic-english/reference.txt",
+      "bytes": 105
+    },
+    {
+      "path": "data/fixtures/synthetic-mixed/input.png",
+      "bytes": 34040
+    },
+    {
+      "path": "data/fixtures/synthetic-mixed/reference.txt",
+      "bytes": 122
+    },
+    {
+      "path": "data/manifests/balanced60.csv",
+      "bytes": 41032
+    },
+    {
+      "path": "data/manifests/balanced60.json",
+      "bytes": 71505
+    },
+    {
+      "path": "data/manifests/benchmark-decisions.json",
+      "bytes": 1861
+    },
+    {
+      "path": "data/manifests/chinese-downloads.json",
+      "bytes": 26527
+    },
+    {
+      "path": "data/manifests/chinese-resources.json",
+      "bytes": 538
+    },
+    {
+      "path": "data/manifests/chinese-sampling.json",
+      "bytes": 680
+    },
+    {
+      "path": "data/manifests/chinese-scene-downloads.json",
+      "bytes": 12499
+    },
+    {
+      "path": "data/manifests/development6.json",
+      "bytes": 6455
+    },
+    {
+      "path": "data/manifests/materials-history76.csv",
+      "bytes": 50243
+    },
+    {
+      "path": "data/manifests/materials.csv",
+      "bytes": 41032
+    },
+    {
+      "path": "data/manifests/model-inventory.json",
+      "bytes": 8258
+    },
+    {
+      "path": "data/manifests/pilot-audit.json",
+      "bytes": 12231
+    },
+    {
+      "path": "data/manifests/pilot-downloads.json",
+      "bytes": 53575
+    },
+    {
+      "path": "data/manifests/pilot-materials.csv",
+      "bytes": 39803
+    },
+    {
+      "path": "data/manifests/pilot-plan.json",
+      "bytes": 34307
+    },
+    {
+      "path": "data/manifests/pilot-resources.json",
+      "bytes": 870
+    },
+    {
+      "path": "data/manifests/prepared66-v1.json",
+      "bytes": 35780
+    },
+    {
+      "path": "data/reports/README.md",
+      "bytes": 1492
+    },
+    {
+      "path": "data/reports/balanced60-materials.md",
+      "bytes": 12154
+    },
+    {
+      "path": "data/reports/benchmark-20261030.csv",
+      "bytes": 32375
+    },
+    {
+      "path": "data/reports/benchmark-20261030.md",
+      "bytes": 8963
+    },
+    {
+      "path": "data/reports/benchmark-round2.csv",
+      "bytes": 25039
+    },
+    {
+      "path": "data/reports/benchmark-round2.md",
+      "bytes": 7738
+    },
+    {
+      "path": "data/reports/benchmark-v3-review-fixes/cases.csv",
+      "bytes": 40575
+    },
+    {
+      "path": "data/reports/benchmark-v3-review-fixes/report.md",
+      "bytes": 2574
+    },
+    {
+      "path": "data/reports/benchmark-v3.csv",
+      "bytes": 40575
+    },
+    {
+      "path": "data/reports/benchmark-v3.md",
+      "bytes": 3660
+    },
+    {
+      "path": "data/reports/pilot-materials.md",
+      "bytes": 8866
+    },
+    {
+      "path": "data/reports/requirements-mineru.txt",
+      "bytes": 2151
+    },
+    {
+      "path": "data/reports/requirements-mlx.txt",
+      "bytes": 1298
+    },
+    {
+      "path": "data/reports/requirements-round1.txt",
+      "bytes": 2052
+    },
+    {
+      "path": "data/reports/shareable/benchmark-v3-summary.json",
+      "bytes": 22022
+    },
+    {
+      "path": "data/reports/shareable/reproducibility.json",
+      "bytes": 294
+    },
+    {
+      "path": "data/reports/shareable/review-fixes.json",
+      "bytes": 403
+    },
+    {
+      "path": "docs/README.md",
+      "bytes": 1442
+    },
+    {
+      "path": "docs/benchmark-protocol.md",
+      "bytes": 4285
+    },
+    {
+      "path": "docs/benchmark-round2.md",
+      "bytes": 4095
+    },
+    {
+      "path": "docs/cli-setup.md",
+      "bytes": 3535
+    },
+    {
+      "path": "docs/code-review-20261030.md",
+      "bytes": 6421
+    },
+    {
+      "path": "docs/git-policy.md",
+      "bytes": 4419
+    },
+    {
+      "path": "docs/lessons-learned.md",
+      "bytes": 3764
+    },
+    {
+      "path": "docs/ocr-evaluation-v3.md",
+      "bytes": 6673
+    },
+    {
+      "path": "docs/ocr-selection.md",
+      "bytes": 7375
+    },
+    {
+      "path": "docs/ocr-ui.md",
+      "bytes": 4695
+    },
+    {
+      "path": "docs/project-conventions.md",
+      "bytes": 1966
+    },
+    {
+      "path": "docs/reproduce.md",
+      "bytes": 5162
+    },
+    {
+      "path": "docs/research/ocr-landscape.md",
+      "bytes": 8263
+    },
+    {
+      "path": "docs/research/ocr-materials.md",
+      "bytes": 10153
+    },
+    {
+      "path": "docs/research/ocr-shortlist.md",
+      "bytes": 5649
+    },
+    {
+      "path": "docs/review-fixes.md",
+      "bytes": 2441
+    },
+    {
+      "path": "docs/workflow.md",
+      "bytes": 3101
+    },
+    {
+      "path": "pyproject.toml",
+      "bytes": 278
+    },
+    {
+      "path": "scripts/audit-git.py",
+      "bytes": 2112
+    },
+    {
+      "path": "scripts/audit-materials.py",
+      "bytes": 5446
+    },
+    {
+      "path": "scripts/bench-cropped-diagnostic.py",
+      "bytes": 1985
+    },
+    {
+      "path": "scripts/bench-download-docling.py",
+      "bytes": 680
+    },
+    {
+      "path": "scripts/bench-download-vlm.py",
+      "bytes": 908
+    },
+    {
+      "path": "scripts/bench-mineru-worker.py",
+      "bytes": 2199
+    },
+    {
+      "path": "scripts/bench-prepare.py",
+      "bytes": 1739
+    },
+    {
+      "path": "scripts/bench-report.py",
+      "bytes": 12076
+    },
+    {
+      "path": "scripts/bench-round2-report.py",
+      "bytes": 9070
+    },
+    {
+      "path": "scripts/bench-round2-run.py",
+      "bytes": 3047
+    },
+    {
+      "path": "scripts/bench-round2-score.py",
+      "bytes": 2626
+    },
+    {
+      "path": "scripts/bench-run.py",
+      "bytes": 1850
+    },
+    {
+      "path": "scripts/bench-score.py",
+      "bytes": 4890
+    },
+    {
+      "path": "scripts/bench-v3-prepare.py",
+      "bytes": 4078
+    },
+    {
+      "path": "scripts/bench-v3-report.py",
+      "bytes": 10884
+    },
+    {
+      "path": "scripts/bench-v3-run.py",
+      "bytes": 6031
+    },
+    {
+      "path": "scripts/bench-v3-worker.py",
+      "bytes": 2459
+    },
+    {
+      "path": "scripts/bench-vision.swift",
+      "bytes": 2868
+    },
+    {
+      "path": "scripts/bench-vlm-worker.py",
+      "bytes": 2912
+    },
+    {
+      "path": "scripts/bench-worker.py",
+      "bytes": 6719
+    },
+    {
+      "path": "scripts/consolidate-materials.py",
+      "bytes": 2450
+    },
+    {
+      "path": "scripts/expand-chinese.py",
+      "bytes": 7226
+    },
+    {
+      "path": "scripts/export-report-summary.py",
+      "bytes": 1646
+    },
+    {
+      "path": "scripts/link-ocr-models.py",
+      "bytes": 1008
+    },
+    {
+      "path": "scripts/ocr-tools.py",
+      "bytes": 1127
+    },
+    {
+      "path": "scripts/ocr-ui.sh",
+      "bytes": 125
+    },
+    {
+      "path": "scripts/ocr_runtime.py",
+      "bytes": 642
+    },
+    {
+      "path": "scripts/prepare-global-models.py",
+      "bytes": 1627
+    },
+    {
+      "path": "scripts/prepare-materials.py",
+      "bytes": 9541
+    },
+    {
+      "path": "scripts/restore-current.py",
+      "bytes": 964
+    },
+    {
+      "path": "scripts/restore-derived.py",
+      "bytes": 3385
+    },
+    {
+      "path": "scripts/select-materials.py",
+      "bytes": 5769
+    },
+    {
+      "path": "src/ocr_eval/metrics.py",
+      "bytes": 4310
+    },
+    {
+      "path": "src/ocr_ui/app.py",
+      "bytes": 10477
+    },
+    {
+      "path": "src/ocr_ui/vision.swift",
+      "bytes": 756
+    },
+    {
+      "path": "src/ocr_ui/worker.py",
+      "bytes": 3029
+    },
+    {
+      "path": "tests/test_benchmark.py",
+      "bytes": 6603
+    },
+    {
+      "path": "tests/test_ocr_metrics.py",
+      "bytes": 3148
+    },
+    {
+      "path": "tests/test_ocr_ui.py",
+      "bytes": 3633
+    },
+    {
+      "path": "tests/test_portable_artifacts.py",
+      "bytes": 1904
+    },
+    {
+      "path": "uv.lock",
+      "bytes": 88935
+    }
+  ]
+}
